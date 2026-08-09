@@ -1,0 +1,1199 @@
+2026-08-02T19:32:18.099730+05:30 devuqaab-VirtualBox polkitd[1020]: Registered Authentication Agent for unix-session:c1 (system bus name :1.43 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+2026-08-02T19:32:37.786091+05:30 devuqaab-VirtualBox gdm-password]: gkr-pam: unable to locate daemon control file
+2026-08-02T19:32:37.786216+05:30 devuqaab-VirtualBox gdm-password]: gkr-pam: stashed password to try later in open session
+2026-08-02T19:32:37.815805+05:30 devuqaab-VirtualBox gdm-password]: pam_unix(gdm-password:session): session opened for user devuqaab(uid=1000) by devuqaab(uid=0)
+2026-08-02T19:32:37.850202+05:30 devuqaab-VirtualBox systemd-logind[1071]: New session 2 of user devuqaab.
+2026-08-02T19:32:37.989902+05:30 devuqaab-VirtualBox (systemd): pam_unix(systemd-user:session): session opened for user devuqaab(uid=1000) by devuqaab(uid=0)
+2026-08-02T19:32:39.389910+05:30 devuqaab-VirtualBox gdm-password]: gkr-pam: unlocked login keyring
+2026-08-02T19:32:41.097309+05:30 devuqaab-VirtualBox gnome-keyring-daemon[2500]: The PKCS#11 component was already initialized
+2026-08-02T19:32:41.098274+05:30 devuqaab-VirtualBox gnome-keyring-daemon[2500]: The Secret Service was already initialized
+2026-08-02T19:32:41.100720+05:30 devuqaab-VirtualBox gnome-keyring-daemon[2703]: discover_other_daemon: 1
+2026-08-02T19:32:41.102339+05:30 devuqaab-VirtualBox gnome-keyring-daemon[2700]: discover_other_daemon: 1
+2026-08-02T19:32:41.111088+05:30 devuqaab-VirtualBox gnome-keyring-daemon[2704]: discover_other_daemon: 1
+2026-08-02T19:32:48.491642+05:30 devuqaab-VirtualBox polkitd[1020]: Registered Authentication Agent for unix-session:2 (system bus name :1.84 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+2026-08-02T19:32:51.614574+05:30 devuqaab-VirtualBox gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session closed for user gdm
+2026-08-02T19:32:51.629328+05:30 devuqaab-VirtualBox systemd-logind[1071]: Session c1 logged out. Waiting for processes to exit.
+2026-08-02T19:32:51.746046+05:30 devuqaab-VirtualBox polkitd[1020]: Unregistered Authentication Agent for unix-session:c1 (system bus name :1.43, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+2026-08-02T19:32:51.784804+05:30 devuqaab-VirtualBox systemd-logind[1071]: Removed session c1.
+2026-08-02T19:33:02.492800+05:30 devuqaab-VirtualBox (sd-pam): pam_unix(systemd-user:session): session closed for user gdm
+2026-08-02T19:33:41.208756+05:30 devuqaab-VirtualBox dbus-daemon[994]: [system] Failed to activate service 'org.bluez': timed out (service_start_timeout=25000ms)
+2026-08-02T19:33:54.867228+05:30 devuqaab-VirtualBox gnome-keyring-daemon[2500]: asked to register item /org/freedesktop/secrets/collection/login/1, but it's already registered
+2026-08-02T19:34:41.761768+05:30 devuqaab-VirtualBox pkexec: pam_unix(polkit-1:session): session opened for user root(uid=0) by devuqaab(uid=1000)
+2026-08-02T19:34:41.766330+05:30 devuqaab-VirtualBox pkexec[5326]: devuqaab: Executing command [USER=root] [TTY=unknown] [CWD=/home/devuqaab] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+2026-08-02T19:35:01.607238+05:30 devuqaab-VirtualBox CRON[5350]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-08-02T19:35:01.630842+05:30 devuqaab-VirtualBox CRON[5350]: pam_unix(cron:session): session closed for user root
+2026-08-02T19:45:01.669655+05:30 devuqaab-VirtualBox CRON[5867]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-08-02T19:45:01.688313+05:30 devuqaab-VirtualBox CRON[5867]: pam_unix(cron:session): session closed for user root
+2026-08-02T19:55:01.796366+05:30 devuqaab-VirtualBox CRON[6166]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-08-02T19:55:01.809665+05:30 devuqaab-VirtualBox CRON[6166]: pam_unix(cron:session): session closed for user root
+2026-08-02T20:05:01.833390+05:30 devuqaab-VirtualBox CRON[6373]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-08-02T20:05:01.844450+05:30 devuqaab-VirtualBox CRON[6373]: pam_unix(cron:session): session closed for user root
+2026-08-02T20:15:01.873934+05:30 devuqaab-VirtualBox CRON[6739]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-08-02T20:15:01.884980+05:30 devuqaab-VirtualBox CRON[6739]: pam_unix(cron:session): session closed for user root
+2026-08-02T20:16:38.466723+05:30 devuqaab-VirtualBox dbus-daemon[994]: [system] Failed to activate service 'org.bluez': timed out (service_start_timeout=25000ms)
+2026-08-02T20:17:01.893849+05:30 devuqaab-VirtualBox CRON[6804]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-08-02T20:17:01.923832+05:30 devuqaab-VirtualBox CRON[6804]: pam_unix(cron:session): session closed for user root
+2026-08-02T20:25:01.215834+05:30 devuqaab-VirtualBox CRON[7017]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-08-02T20:25:01.227664+05:30 devuqaab-VirtualBox CRON[7017]: pam_unix(cron:session): session closed for user root
+2026-08-02T20:30:01.305472+05:30 devuqaab-VirtualBox CRON[7181]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-08-02T20:30:01.318980+05:30 devuqaab-VirtualBox CRON[7181]: pam_unix(cron:session): session closed for user root
+2026-08-02T20:35:01.528562+05:30 devuqaab-VirtualBox CRON[7485]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-08-02T20:35:01.544294+05:30 devuqaab-VirtualBox CRON[7485]: pam_unix(cron:session): session closed for user root
+2026-08-02T20:45:01.580405+05:30 devuqaab-VirtualBox CRON[7786]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-08-02T20:45:01.626918+05:30 devuqaab-VirtualBox CRON[7786]: pam_unix(cron:session): session closed for user root
+2026-08-02T20:54:00.387932+05:30 devuqaab-VirtualBox gdm-password]: gkr-pam: unlocked login keyring
+2026-08-02T20:55:01.689325+05:30 devuqaab-VirtualBox CRON[8063]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-08-02T20:55:01.704495+05:30 devuqaab-VirtualBox CRON[8063]: pam_unix(cron:session): session closed for user root
+2026-08-02T21:05:01.835144+05:30 devuqaab-VirtualBox CRON[8564]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-08-02T21:05:01.859111+05:30 devuqaab-VirtualBox CRON[8564]: pam_unix(cron:session): session closed for user root
+2026-08-02T21:15:01.894320+05:30 devuqaab-VirtualBox CRON[8774]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-08-02T21:15:01.929075+05:30 devuqaab-VirtualBox CRON[8774]: pam_unix(cron:session): session closed for user root
+2026-08-02T21:17:01.940635+05:30 devuqaab-VirtualBox CRON[8812]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-08-02T21:17:01.955921+05:30 devuqaab-VirtualBox CRON[8812]: pam_unix(cron:session): session closed for user root
+2026-08-02T21:21:23.357838+05:30 devuqaab-VirtualBox gdm-password]: gkr-pam: unlocked login keyring
+2026-08-02T21:25:01.899801+05:30 devuqaab-VirtualBox CRON[9031]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-08-02T21:25:01.910531+05:30 devuqaab-VirtualBox CRON[9031]: pam_unix(cron:session): session closed for user root
+2026-08-04T10:46:17.293805+05:30 devuqaab-VirtualBox systemd-logind[1141]: New seat seat0.
+2026-08-04T10:46:17.293889+05:30 devuqaab-VirtualBox systemd-logind[1141]: Watching system buttons on /dev/input/event0 (Power Button)
+2026-08-04T10:46:17.293900+05:30 devuqaab-VirtualBox systemd-logind[1141]: Watching system buttons on /dev/input/event1 (Sleep Button)
+2026-08-04T10:46:17.293906+05:30 devuqaab-VirtualBox systemd-logind[1141]: Watching system buttons on /dev/input/event2 (AT Translated Set 2 keyboard)
+2026-08-04T10:46:17.421675+05:30 devuqaab-VirtualBox polkitd[1111]: Loading rules from directory /etc/polkit-1/rules.d
+2026-08-04T10:46:17.459412+05:30 devuqaab-VirtualBox polkitd[1111]: Loading rules from directory /usr/share/polkit-1/rules.d
+2026-08-04T10:46:17.805733+05:30 devuqaab-VirtualBox polkitd[1111]: Finished loading, compiling and executing 16 rules
+2026-08-04T10:46:17.809845+05:30 devuqaab-VirtualBox polkitd[1111]: Acquired the name org.freedesktop.PolicyKit1 on the system bus
+2026-08-04T10:46:25.116957+05:30 devuqaab-VirtualBox gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session opened for user gdm(uid=120) by (uid=0)
+2026-08-04T10:46:25.164047+05:30 devuqaab-VirtualBox systemd-logind[1141]: New session c1 of user gdm.
+2026-08-04T10:46:25.400958+05:30 devuqaab-VirtualBox (systemd): pam_unix(systemd-user:session): session opened for user gdm(uid=120) by gdm(uid=0)
+2026-08-04T10:46:49.392511+05:30 devuqaab-VirtualBox polkitd[1111]: Registered Authentication Agent for unix-session:c1 (system bus name :1.41 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+2026-08-04T10:48:09.911386+05:30 devuqaab-VirtualBox gdm-password]: gkr-pam: unable to locate daemon control file
+2026-08-04T10:48:09.911532+05:30 devuqaab-VirtualBox gdm-password]: gkr-pam: stashed password to try later in open session
+2026-08-04T10:48:09.958969+05:30 devuqaab-VirtualBox gdm-password]: pam_unix(gdm-password:session): session opened for user devuqaab(uid=1000) by devuqaab(uid=0)
+2026-08-04T10:48:09.984183+05:30 devuqaab-VirtualBox systemd-logind[1141]: New session 2 of user devuqaab.
+2026-08-04T10:48:10.141788+05:30 devuqaab-VirtualBox (systemd): pam_unix(systemd-user:session): session opened for user devuqaab(uid=1000) by devuqaab(uid=0)
+2026-08-04T10:48:11.537781+05:30 devuqaab-VirtualBox gdm-password]: gkr-pam: unlocked login keyring
+2026-08-04T10:48:13.207159+05:30 devuqaab-VirtualBox gnome-keyring-daemon[2703]: discover_other_daemon: 1
+2026-08-04T10:48:13.209299+05:30 devuqaab-VirtualBox gnome-keyring-daemon[2501]: The Secret Service was already initialized
+2026-08-04T10:48:13.210594+05:30 devuqaab-VirtualBox gnome-keyring-daemon[2706]: discover_other_daemon: 1
+2026-08-04T10:48:13.232027+05:30 devuqaab-VirtualBox gnome-keyring-daemon[2501]: The PKCS#11 component was already initialized
+2026-08-04T10:48:13.237497+05:30 devuqaab-VirtualBox gnome-keyring-daemon[2709]: discover_other_daemon: 1
+2026-08-04T10:48:21.199455+05:30 devuqaab-VirtualBox polkitd[1111]: Registered Authentication Agent for unix-session:2 (system bus name :1.82 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+2026-08-04T10:48:29.286175+05:30 devuqaab-VirtualBox gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session closed for user gdm
+2026-08-04T10:48:29.366037+05:30 devuqaab-VirtualBox systemd-logind[1141]: Session c1 logged out. Waiting for processes to exit.
+2026-08-04T10:48:29.482609+05:30 devuqaab-VirtualBox polkitd[1111]: Unregistered Authentication Agent for unix-session:c1 (system bus name :1.41, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+2026-08-04T10:48:29.550062+05:30 devuqaab-VirtualBox systemd-logind[1141]: Removed session c1.
+2026-08-04T10:49:15.634381+05:30 devuqaab-VirtualBox dbus-daemon[1100]: [system] Failed to activate service 'org.bluez': timed out (service_start_timeout=25000ms)
+2026-08-04T10:49:24.320206+05:30 devuqaab-VirtualBox gnome-keyring-daemon[2501]: asked to register item /org/freedesktop/secrets/collection/login/1, but it's already registered
+2026-08-04T10:49:50.982983+05:30 devuqaab-VirtualBox pkexec: pam_unix(polkit-1:session): session opened for user root(uid=0) by devuqaab(uid=1000)
+2026-08-04T10:49:50.989916+05:30 devuqaab-VirtualBox pkexec[5245]: devuqaab: Executing command [USER=root] [TTY=unknown] [CWD=/home/devuqaab] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+2026-08-04T10:55:01.546163+05:30 devuqaab-VirtualBox CRON[5402]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-08-04T10:55:01.559886+05:30 devuqaab-VirtualBox CRON[5402]: pam_unix(cron:session): session closed for user root
+2026-08-04T11:00:45.583621+05:30 devuqaab-VirtualBox dbus-daemon[1100]: [system] Failed to activate service 'org.bluez': timed out (service_start_timeout=25000ms)
+2026-08-04T11:05:01.609054+05:30 devuqaab-VirtualBox CRON[6401]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-08-04T11:05:01.629834+05:30 devuqaab-VirtualBox CRON[6401]: pam_unix(cron:session): session closed for user root
+2026-08-04T11:15:01.646961+05:30 devuqaab-VirtualBox CRON[6681]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-08-04T11:15:01.664860+05:30 devuqaab-VirtualBox CRON[6681]: pam_unix(cron:session): session closed for user root
+2026-08-04T11:19:22.282520+05:30 devuqaab-VirtualBox CRON[6706]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-08-04T11:19:22.283038+05:30 devuqaab-VirtualBox systemd-logind[6853]: New seat seat0.
+2026-08-04T11:19:22.283738+05:30 devuqaab-VirtualBox systemd-logind[6853]: Watching system buttons on /dev/input/event0 (Power Button)
+2026-08-04T11:19:22.283854+05:30 devuqaab-VirtualBox CRON[6706]: pam_unix(cron:session): session closed for user root
+2026-08-04T11:19:22.284109+05:30 devuqaab-VirtualBox systemd-logind[6853]: Watching system buttons on /dev/input/event1 (Sleep Button)
+2026-08-04T11:19:22.284716+05:30 devuqaab-VirtualBox systemd-logind[6853]: Watching system buttons on /dev/input/event2 (AT Translated Set 2 keyboard)
+2026-08-04T11:19:22.285053+05:30 devuqaab-VirtualBox systemd-logind[6853]: New session 2 of user devuqaab.
+2026-08-04T11:19:22.287823+05:30 devuqaab-VirtualBox gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session opened for user gdm(uid=120) by (uid=0)
+2026-08-04T11:19:22.288363+05:30 devuqaab-VirtualBox systemd-logind[6853]: New session c1 of user gdm.
+2026-08-04T11:19:22.289101+05:30 devuqaab-VirtualBox (systemd): pam_unix(systemd-user:session): session opened for user gdm(uid=120) by gdm(uid=0)
+2026-08-04T11:19:28.593173+05:30 devuqaab-VirtualBox polkitd[1111]: Registered Authentication Agent for unix-session:c1 (system bus name :1.156 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+2026-08-04T11:19:47.195133+05:30 devuqaab-VirtualBox gdm-password]: gkr-pam: unlocked login keyring
+2026-08-04T11:19:57.666590+05:30 devuqaab-VirtualBox gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session closed for user gdm
+2026-08-04T11:19:57.683998+05:30 devuqaab-VirtualBox systemd-logind[6853]: Session c1 logged out. Waiting for processes to exit.
+2026-08-04T11:19:57.797324+05:30 devuqaab-VirtualBox polkitd[1111]: Unregistered Authentication Agent for unix-session:c1 (system bus name :1.156, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+2026-08-04T11:19:57.840276+05:30 devuqaab-VirtualBox systemd-logind[6853]: Removed session c1.
+2026-08-04T11:20:08.226333+05:30 devuqaab-VirtualBox (sd-pam): pam_unix(systemd-user:session): session closed for user gdm
+2026-08-04T11:25:01.189517+05:30 devuqaab-VirtualBox CRON[8085]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-08-04T11:25:01.200195+05:30 devuqaab-VirtualBox CRON[8085]: pam_unix(cron:session): session closed for user root
+2026-08-04T11:30:01.228862+05:30 devuqaab-VirtualBox CRON[8248]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-08-04T11:30:01.235822+05:30 devuqaab-VirtualBox CRON[8248]: pam_unix(cron:session): session closed for user root
+2026-08-04T11:35:01.278123+05:30 devuqaab-VirtualBox CRON[8476]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-08-04T11:35:01.290199+05:30 devuqaab-VirtualBox CRON[8476]: pam_unix(cron:session): session closed for user root
+2026-08-04T11:41:46.161183+05:30 devuqaab-VirtualBox dbus-daemon[1100]: [system] Failed to activate service 'org.bluez': timed out (service_start_timeout=25000ms)
+2026-08-04T11:42:28.686947+05:30 devuqaab-VirtualBox gdm-password]: pam_unix(gdm-password:session): session closed for user devuqaab
+2026-08-04T11:42:28.877948+05:30 devuqaab-VirtualBox gdm-password]: pam_unix(gdm-password:auth): conversation failed
+2026-08-04T11:42:28.878463+05:30 devuqaab-VirtualBox gdm-password]: pam_unix(gdm-password:auth): auth could not identify password for [devuqaab]
+2026-08-04T11:42:28.886771+05:30 devuqaab-VirtualBox systemd-logind[6853]: Session 2 logged out. Waiting for processes to exit.
+2026-08-04T11:42:29.025412+05:30 devuqaab-VirtualBox gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session opened for user gdm(uid=120) by (uid=0)
+2026-08-04T11:42:29.099751+05:30 devuqaab-VirtualBox systemd-logind[6853]: New session c2 of user gdm.
+2026-08-04T11:42:29.216570+05:30 devuqaab-VirtualBox (systemd): pam_unix(systemd-user:session): session opened for user gdm(uid=120) by gdm(uid=0)
+2026-08-04T11:42:31.389681+05:30 devuqaab-VirtualBox polkitd[1111]: Unregistered Authentication Agent for unix-session:2 (system bus name :1.82, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+2026-08-04T11:42:34.419904+05:30 devuqaab-VirtualBox polkitd[1111]: Registered Authentication Agent for unix-session:c2 (system bus name :1.196 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+2026-08-04T11:42:43.795446+05:30 devuqaab-VirtualBox gdm-password]: gkr-pam: unable to locate daemon control file
+2026-08-04T11:42:43.795617+05:30 devuqaab-VirtualBox gdm-password]: gkr-pam: stashed password to try later in open session
+2026-08-04T11:42:43.849157+05:30 devuqaab-VirtualBox gdm-password]: pam_unix(gdm-password:session): session opened for user devuqaab(uid=1000) by devuqaab(uid=0)
+2026-08-04T11:42:43.878420+05:30 devuqaab-VirtualBox systemd-logind[6853]: New session 13 of user devuqaab.
+2026-08-04T11:42:44.035406+05:30 devuqaab-VirtualBox gdm-password]: gkr-pam: unlocked login keyring
+2026-08-04T11:42:44.778499+05:30 devuqaab-VirtualBox gnome-keyring-daemon[9482]: The Secret Service was already initialized
+2026-08-04T11:42:44.779597+05:30 devuqaab-VirtualBox gnome-keyring-daemon[9614]: discover_other_daemon: 1
+2026-08-04T11:42:44.787278+05:30 devuqaab-VirtualBox gnome-keyring-daemon[9482]: The PKCS#11 component was already initialized
+2026-08-04T11:42:44.789332+05:30 devuqaab-VirtualBox gnome-keyring-daemon[9615]: discover_other_daemon: 1
+2026-08-04T11:42:44.799843+05:30 devuqaab-VirtualBox gnome-keyring-daemon[9617]: discover_other_daemon: 1
+2026-08-04T11:42:48.323423+05:30 devuqaab-VirtualBox polkitd[1111]: Registered Authentication Agent for unix-session:13 (system bus name :1.224 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+2026-08-04T11:42:49.964849+05:30 devuqaab-VirtualBox gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session closed for user gdm
+2026-08-04T11:42:49.975960+05:30 devuqaab-VirtualBox systemd-logind[6853]: Session c2 logged out. Waiting for processes to exit.
+2026-08-04T11:42:50.168528+05:30 devuqaab-VirtualBox polkitd[1111]: Unregistered Authentication Agent for unix-session:c2 (system bus name :1.196, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+2026-08-04T11:42:50.180752+05:30 devuqaab-VirtualBox systemd-logind[6853]: Removed session c2.
+2026-08-04T11:43:00.451459+05:30 devuqaab-VirtualBox (sd-pam): pam_unix(systemd-user:session): session closed for user gdm
+2026-08-04T11:43:50.371346+05:30 devuqaab-VirtualBox pkexec: pam_unix(polkit-1:session): session opened for user root(uid=0) by devuqaab(uid=1000)
+2026-08-04T11:43:50.375867+05:30 devuqaab-VirtualBox pkexec[10553]: devuqaab: Executing command [USER=root] [TTY=unknown] [CWD=/home/devuqaab] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+2026-08-04T11:45:01.315672+05:30 devuqaab-VirtualBox CRON[10584]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-08-04T11:45:01.328876+05:30 devuqaab-VirtualBox CRON[10584]: pam_unix(cron:session): session closed for user root
+2026-08-04T11:49:48.100307+05:30 devuqaab-VirtualBox gnome-keyring-daemon[9482]: asked to register item /org/freedesktop/secrets/collection/login/1, but it's already registered
+2026-08-04T11:50:01.957299+05:30 devuqaab-VirtualBox dbus-daemon[1100]: [system] Failed to activate service 'org.bluez': timed out (service_start_timeout=25000ms)
+2026-08-04T11:55:01.360901+05:30 devuqaab-VirtualBox CRON[12903]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-08-04T11:55:01.373192+05:30 devuqaab-VirtualBox CRON[12903]: pam_unix(cron:session): session closed for user root
+2026-08-04T12:05:01.399422+05:30 devuqaab-VirtualBox CRON[13249]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-08-04T12:05:01.412070+05:30 devuqaab-VirtualBox CRON[13249]: pam_unix(cron:session): session closed for user root
+2026-08-04T12:15:01.469398+05:30 devuqaab-VirtualBox CRON[13775]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-08-04T12:15:01.478285+05:30 devuqaab-VirtualBox CRON[13775]: pam_unix(cron:session): session closed for user root
+2026-08-04T12:15:47.772495+05:30 devuqaab-VirtualBox gnome-keyring-daemon[9482]: asked to register item /org/freedesktop/secrets/collection/login/1, but it's already registered
+2026-08-04T12:16:04.459435+05:30 devuqaab-VirtualBox dbus-daemon[1100]: [system] Failed to activate service 'org.bluez': timed out (service_start_timeout=25000ms)
+2026-08-04T12:17:01.492606+05:30 devuqaab-VirtualBox CRON[14327]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-08-04T12:17:01.499464+05:30 devuqaab-VirtualBox CRON[14327]: pam_unix(cron:session): session closed for user root
+2026-08-04T12:25:01.703228+05:30 devuqaab-VirtualBox CRON[14830]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-08-04T12:25:01.729050+05:30 devuqaab-VirtualBox CRON[14830]: pam_unix(cron:session): session closed for user root
+2026-08-04T12:30:01.736978+05:30 devuqaab-VirtualBox CRON[15022]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-08-04T12:30:01.812777+05:30 devuqaab-VirtualBox CRON[15022]: pam_unix(cron:session): session closed for user root
+2026-08-04T12:35:01.763198+05:30 devuqaab-VirtualBox CRON[15216]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-08-04T12:35:01.773786+05:30 devuqaab-VirtualBox CRON[15216]: pam_unix(cron:session): session closed for user root
+2026-08-04T12:45:01.792646+05:30 devuqaab-VirtualBox CRON[15454]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-08-04T12:45:01.802097+05:30 devuqaab-VirtualBox CRON[15454]: pam_unix(cron:session): session closed for user root
+2026-08-04T12:55:01.103210+05:30 devuqaab-VirtualBox CRON[15633]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-08-04T12:55:01.113455+05:30 devuqaab-VirtualBox CRON[15633]: pam_unix(cron:session): session closed for user root
+                                                                                                                                                                                                                                                                                                                                                                        2026-08-04T13:46:40.070469+05:30 devuqaab-VirtualBox systemd-logind[1117]: New seat seat0.
+2026-08-04T13:46:40.070479+05:30 devuqaab-VirtualBox systemd-logind[1117]: Watching system buttons on /dev/input/event0 (Power Button)
+2026-08-04T13:46:40.070484+05:30 devuqaab-VirtualBox systemd-logind[1117]: Watching system buttons on /dev/input/event1 (Sleep Button)
+2026-08-04T13:46:40.070495+05:30 devuqaab-VirtualBox systemd-logind[1117]: Watching system buttons on /dev/input/event2 (AT Translated Set 2 keyboard)
+2026-08-04T13:46:40.269856+05:30 devuqaab-VirtualBox polkitd[1089]: Loading rules from directory /etc/polkit-1/rules.d
+2026-08-04T13:46:40.298041+05:30 devuqaab-VirtualBox polkitd[1089]: Loading rules from directory /usr/share/polkit-1/rules.d
+2026-08-04T13:46:40.518590+05:30 devuqaab-VirtualBox polkitd[1089]: Finished loading, compiling and executing 16 rules
+2026-08-04T13:46:40.531640+05:30 devuqaab-VirtualBox polkitd[1089]: Acquired the name org.freedesktop.PolicyKit1 on the system bus
+2026-08-04T13:46:47.306297+05:30 devuqaab-VirtualBox gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session opened for user gdm(uid=120) by (uid=0)
+2026-08-04T13:46:47.522873+05:30 devuqaab-VirtualBox systemd-logind[1117]: New session c1 of user gdm.
+2026-08-04T13:46:47.775201+05:30 devuqaab-VirtualBox (systemd): pam_unix(systemd-user:session): session opened for user gdm(uid=120) by gdm(uid=0)
+2026-08-04T13:47:05.277936+05:30 devuqaab-VirtualBox polkitd[1089]: Registered Authentication Agent for unix-session:c1 (system bus name :1.41 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+2026-08-04T13:47:21.289685+05:30 devuqaab-VirtualBox gdm-password]: gkr-pam: unable to locate daemon control file
+2026-08-04T13:47:21.289870+05:30 devuqaab-VirtualBox gdm-password]: gkr-pam: stashed password to try later in open session
+2026-08-04T13:47:21.334242+05:30 devuqaab-VirtualBox gdm-password]: pam_unix(gdm-password:session): session opened for user devuqaab(uid=1000) by devuqaab(uid=0)
+2026-08-04T13:47:21.357639+05:30 devuqaab-VirtualBox systemd-logind[1117]: New session 2 of user devuqaab.
+2026-08-04T13:47:21.492544+05:30 devuqaab-VirtualBox (systemd): pam_unix(systemd-user:session): session opened for user devuqaab(uid=1000) by devuqaab(uid=0)
+2026-08-04T13:47:22.794495+05:30 devuqaab-VirtualBox gdm-password]: gkr-pam: unlocked login keyring
+2026-08-04T13:47:24.087303+05:30 devuqaab-VirtualBox gnome-keyring-daemon[2445]: The Secret Service was already initialized
+2026-08-04T13:47:24.093345+05:30 devuqaab-VirtualBox gnome-keyring-daemon[2629]: discover_other_daemon: 1
+2026-08-04T13:47:24.109929+05:30 devuqaab-VirtualBox gnome-keyring-daemon[2445]: The PKCS#11 component was already initialized
+2026-08-04T13:47:24.116404+05:30 devuqaab-VirtualBox gnome-keyring-daemon[2634]: discover_other_daemon: 1
+2026-08-04T13:47:24.121911+05:30 devuqaab-VirtualBox gnome-keyring-daemon[2635]: discover_other_daemon: 1
+2026-08-04T13:47:30.344963+05:30 devuqaab-VirtualBox polkitd[1089]: Registered Authentication Agent for unix-session:2 (system bus name :1.82 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+2026-08-04T13:47:32.633510+05:30 devuqaab-VirtualBox gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session closed for user gdm
+2026-08-04T13:47:32.712720+05:30 devuqaab-VirtualBox systemd-logind[1117]: Session c1 logged out. Waiting for processes to exit.
+2026-08-04T13:47:32.738237+05:30 devuqaab-VirtualBox polkitd[1089]: Unregistered Authentication Agent for unix-session:c1 (system bus name :1.41, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+2026-08-04T13:47:32.791744+05:30 devuqaab-VirtualBox systemd-logind[1117]: Removed session c1.
+2026-08-04T13:47:43.188071+05:30 devuqaab-VirtualBox (sd-pam): pam_unix(systemd-user:session): session closed for user gdm
+2026-08-04T13:48:18.991661+05:30 devuqaab-VirtualBox dbus-daemon[1060]: [system] Failed to activate service 'org.bluez': timed out (service_start_timeout=25000ms)
+2026-08-04T13:48:34.699631+05:30 devuqaab-VirtualBox gnome-keyring-daemon[2445]: asked to register item /org/freedesktop/secrets/collection/login/1, but it's already registered
+2026-08-04T13:48:55.019468+05:30 devuqaab-VirtualBox pkexec: pam_unix(polkit-1:session): session opened for user root(uid=0) by devuqaab(uid=1000)
+2026-08-04T13:48:55.022214+05:30 devuqaab-VirtualBox pkexec[4909]: devuqaab: Executing command [USER=root] [TTY=unknown] [CWD=/home/devuqaab] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+2026-08-04T13:55:01.484322+05:30 devuqaab-VirtualBox CRON[5301]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-08-04T13:55:01.499418+05:30 devuqaab-VirtualBox CRON[5301]: pam_unix(cron:session): session closed for user root
+2026-08-04T14:05:01.574509+05:30 devuqaab-VirtualBox CRON[5529]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-08-04T14:05:01.585586+05:30 devuqaab-VirtualBox CRON[5529]: pam_unix(cron:session): session closed for user root
+2026-08-04T14:15:01.712452+05:30 devuqaab-VirtualBox CRON[5909]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-08-04T14:15:01.723315+05:30 devuqaab-VirtualBox CRON[5909]: pam_unix(cron:session): session closed for user root
+2026-08-04T14:17:01.758366+05:30 devuqaab-VirtualBox CRON[5972]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-08-04T14:17:01.789562+05:30 devuqaab-VirtualBox CRON[5972]: pam_unix(cron:session): session closed for user root
+2026-08-04T14:46:52.199046+05:30 devuqaab-VirtualBox CRON[6166]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-08-04T14:46:52.199303+05:30 devuqaab-VirtualBox CRON[6166]: pam_unix(cron:session): session closed for user root
+2026-08-04T14:47:06.242815+05:30 devuqaab-VirtualBox gdm-password]: gkr-pam: unlocked login keyring
+2026-08-04T14:47:18.780046+05:30 devuqaab-VirtualBox dbus-daemon[1060]: [system] Failed to activate service 'org.bluez': timed out (service_start_timeout=25000ms)
+2026-08-04T14:55:01.924518+05:30 devuqaab-VirtualBox CRON[6495]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-08-04T14:55:01.933011+05:30 devuqaab-VirtualBox CRON[6495]: pam_unix(cron:session): session closed for user root
+2026-08-04T15:05:01.958491+05:30 devuqaab-VirtualBox CRON[6763]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-08-04T15:05:01.967842+05:30 devuqaab-VirtualBox CRON[6763]: pam_unix(cron:session): session closed for user root
+2026-08-04T15:07:22.072382+05:30 devuqaab-VirtualBox gdm-password]: gkr-pam: unlocked login keyring
+2026-08-04T15:15:01.983824+05:30 devuqaab-VirtualBox CRON[7120]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-08-04T15:15:01.994034+05:30 devuqaab-VirtualBox CRON[7120]: pam_unix(cron:session): session closed for user root
+2026-08-04T15:17:02.004876+05:30 devuqaab-VirtualBox CRON[7174]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-08-04T15:17:02.015282+05:30 devuqaab-VirtualBox CRON[7174]: pam_unix(cron:session): session closed for user root
+2026-08-04T15:25:01.037662+05:30 devuqaab-VirtualBox CRON[7466]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-08-04T15:25:01.048826+05:30 devuqaab-VirtualBox CRON[7466]: pam_unix(cron:session): session closed for user root
+2026-08-04T15:30:01.066330+05:30 devuqaab-VirtualBox CRON[7549]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-08-04T15:30:01.071279+05:30 devuqaab-VirtualBox CRON[7549]: pam_unix(cron:session): session closed for user root
+2026-08-04T15:31:45.354416+05:30 devuqaab-VirtualBox gdm-password]: gkr-pam: unlocked login keyring
+2026-08-04T15:35:01.339373+05:30 devuqaab-VirtualBox CRON[7758]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-08-04T15:35:01.349529+05:30 devuqaab-VirtualBox CRON[7758]: pam_unix(cron:session): session closed for user root
+2026-08-04T15:45:01.380833+05:30 devuqaab-VirtualBox CRON[8089]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-08-04T15:45:01.390302+05:30 devuqaab-VirtualBox CRON[8089]: pam_unix(cron:session): session closed for user root
+2026-08-04T15:55:01.407593+05:30 devuqaab-VirtualBox CRON[8328]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-08-04T15:55:01.417500+05:30 devuqaab-VirtualBox CRON[8328]: pam_unix(cron:session): session closed for user root
+2026-08-04T16:05:01.451423+05:30 devuqaab-VirtualBox CRON[8779]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-08-04T16:05:01.461557+05:30 devuqaab-VirtualBox CRON[8779]: pam_unix(cron:session): session closed for user root
+2026-08-04T16:15:01.477792+05:30 devuqaab-VirtualBox CRON[9379]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-08-04T16:15:01.490706+05:30 devuqaab-VirtualBox CRON[9379]: pam_unix(cron:session): session closed for user root
+2026-08-04T16:17:01.501342+05:30 devuqaab-VirtualBox CRON[9463]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-08-04T16:17:01.513485+05:30 devuqaab-VirtualBox CRON[9463]: pam_unix(cron:session): session closed for user root
+2026-08-04T16:25:01.542095+05:30 devuqaab-VirtualBox CRON[9976]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-08-04T16:25:01.555447+05:30 devuqaab-VirtualBox CRON[9976]: pam_unix(cron:session): session closed for user root
+2026-08-04T19:33:18.416750+05:30 devuqaab-VirtualBox systemd-logind[1019]: New seat seat0.
+2026-08-04T19:33:18.485510+05:30 devuqaab-VirtualBox systemd-logind[1019]: Watching system buttons on /dev/input/event0 (Power Button)
+2026-08-04T19:33:18.485819+05:30 devuqaab-VirtualBox systemd-logind[1019]: Watching system buttons on /dev/input/event1 (Sleep Button)
+2026-08-04T19:33:18.486043+05:30 devuqaab-VirtualBox systemd-logind[1019]: Watching system buttons on /dev/input/event2 (AT Translated Set 2 keyboard)
+2026-08-04T19:33:19.320347+05:30 devuqaab-VirtualBox polkitd[980]: Loading rules from directory /etc/polkit-1/rules.d
+2026-08-04T19:33:19.320643+05:30 devuqaab-VirtualBox polkitd[980]: Loading rules from directory /usr/share/polkit-1/rules.d
+2026-08-04T19:33:19.539101+05:30 devuqaab-VirtualBox polkitd[980]: Finished loading, compiling and executing 16 rules
+2026-08-04T19:33:19.551749+05:30 devuqaab-VirtualBox polkitd[980]: Acquired the name org.freedesktop.PolicyKit1 on the system bus
+2026-08-04T19:33:26.078441+05:30 devuqaab-VirtualBox gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session opened for user gdm(uid=120) by (uid=0)
+2026-08-04T19:33:26.202042+05:30 devuqaab-VirtualBox systemd-logind[1019]: New session c1 of user gdm.
+2026-08-04T19:33:26.530157+05:30 devuqaab-VirtualBox (systemd): pam_unix(systemd-user:session): session opened for user gdm(uid=120) by gdm(uid=0)
+2026-08-04T19:33:43.403397+05:30 devuqaab-VirtualBox polkitd[980]: Registered Authentication Agent for unix-session:c1 (system bus name :1.42 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+2026-08-04T19:35:01.307719+05:30 devuqaab-VirtualBox CRON[2444]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-08-04T19:35:01.322039+05:30 devuqaab-VirtualBox CRON[2444]: pam_unix(cron:session): session closed for user root
+2026-08-04T19:41:53.589805+05:30 devuqaab-VirtualBox gdm-password]: gkr-pam: unable to locate daemon control file
+2026-08-04T19:41:53.589967+05:30 devuqaab-VirtualBox gdm-password]: gkr-pam: stashed password to try later in open session
+2026-08-04T19:41:53.644648+05:30 devuqaab-VirtualBox gdm-password]: pam_unix(gdm-password:session): session opened for user devuqaab(uid=1000) by devuqaab(uid=0)
+2026-08-04T19:41:53.668223+05:30 devuqaab-VirtualBox systemd-logind[1019]: New session 3 of user devuqaab.
+2026-08-04T19:41:53.811896+05:30 devuqaab-VirtualBox (systemd): pam_unix(systemd-user:session): session opened for user devuqaab(uid=1000) by devuqaab(uid=0)
+2026-08-04T19:41:55.063519+05:30 devuqaab-VirtualBox gdm-password]: gkr-pam: unlocked login keyring
+2026-08-04T19:41:56.450165+05:30 devuqaab-VirtualBox gnome-keyring-daemon[2595]: The Secret Service was already initialized
+2026-08-04T19:41:56.455290+05:30 devuqaab-VirtualBox gnome-keyring-daemon[2595]: The PKCS#11 component was already initialized
+2026-08-04T19:41:56.456585+05:30 devuqaab-VirtualBox gnome-keyring-daemon[2812]: discover_other_daemon: 1
+2026-08-04T19:41:56.462004+05:30 devuqaab-VirtualBox gnome-keyring-daemon[2810]: discover_other_daemon: 1
+2026-08-04T19:41:56.469462+05:30 devuqaab-VirtualBox gnome-keyring-daemon[2811]: discover_other_daemon: 1
+2026-08-04T19:42:02.896447+05:30 devuqaab-VirtualBox polkitd[980]: Registered Authentication Agent for unix-session:3 (system bus name :1.84 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+2026-08-04T19:42:11.407109+05:30 devuqaab-VirtualBox gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session closed for user gdm
+2026-08-04T19:42:11.500302+05:30 devuqaab-VirtualBox systemd-logind[1019]: Session c1 logged out. Waiting for processes to exit.
+2026-08-04T19:42:11.745329+05:30 devuqaab-VirtualBox polkitd[980]: Unregistered Authentication Agent for unix-session:c1 (system bus name :1.42, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+2026-08-04T19:42:11.773455+05:30 devuqaab-VirtualBox systemd-logind[1019]: Removed session c1.
+2026-08-04T19:43:04.775018+05:30 devuqaab-VirtualBox pkexec: pam_unix(polkit-1:session): session opened for user root(uid=0) by devuqaab(uid=1000)
+2026-08-04T19:43:04.778929+05:30 devuqaab-VirtualBox pkexec[3760]: devuqaab: Executing command [USER=root] [TTY=unknown] [CWD=/home/devuqaab] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+2026-08-04T19:45:01.673946+05:30 devuqaab-VirtualBox CRON[4943]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-08-04T19:45:01.687557+05:30 devuqaab-VirtualBox CRON[4943]: pam_unix(cron:session): session closed for user root
+2026-08-04T19:45:39.225198+05:30 devuqaab-VirtualBox dbus-daemon[953]: [system] Failed to activate service 'org.bluez': timed out (service_start_timeout=25000ms)
+2026-08-04T19:46:51.162696+05:30 devuqaab-VirtualBox dbus-daemon[953]: [system] Failed to activate service 'org.bluez': timed out (service_start_timeout=25000ms)
+2026-08-04T19:46:52.919948+05:30 devuqaab-VirtualBox gnome-keyring-daemon[2595]: asked to register item /org/freedesktop/secrets/collection/login/1, but it's already registered
+2026-08-04T19:55:01.871763+05:30 devuqaab-VirtualBox CRON[6067]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-08-04T19:55:01.882300+05:30 devuqaab-VirtualBox CRON[6067]: pam_unix(cron:session): session closed for user root
+2026-08-04T19:58:03.095388+05:30 devuqaab-VirtualBox pkexec: pam_unix(polkit-1:session): session opened for user root(uid=0) by devuqaab(uid=1000)
+2026-08-04T19:58:03.100113+05:30 devuqaab-VirtualBox pkexec[6346]: devuqaab: Executing command [USER=root] [TTY=unknown] [CWD=/home/devuqaab] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+2026-08-04T20:05:01.573954+05:30 devuqaab-VirtualBox CRON[6489]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-08-04T20:05:01.586048+05:30 devuqaab-VirtualBox CRON[6489]: pam_unix(cron:session): session closed for user root
+2026-08-04T20:15:01.708937+05:30 devuqaab-VirtualBox CRON[6758]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-08-04T20:15:01.720017+05:30 devuqaab-VirtualBox CRON[6758]: pam_unix(cron:session): session closed for user root
+2026-08-04T20:17:01.733874+05:30 devuqaab-VirtualBox CRON[6791]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-08-04T20:17:01.767886+05:30 devuqaab-VirtualBox CRON[6791]: pam_unix(cron:session): session closed for user root
+2026-08-04T20:25:01.841469+05:30 devuqaab-VirtualBox CRON[6941]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-08-04T20:25:01.852120+05:30 devuqaab-VirtualBox CRON[6941]: pam_unix(cron:session): session closed for user root
+2026-08-04T20:30:01.867768+05:30 devuqaab-VirtualBox CRON[7033]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-08-04T20:30:01.872587+05:30 devuqaab-VirtualBox CRON[7033]: pam_unix(cron:session): session closed for user root
+2026-08-04T20:35:01.983849+05:30 devuqaab-VirtualBox CRON[7141]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-08-04T20:35:01.995015+05:30 devuqaab-VirtualBox CRON[7141]: pam_unix(cron:session): session closed for user root
+2026-08-04T20:45:01.580701+05:30 devuqaab-VirtualBox CRON[7384]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-08-04T20:45:01.648173+05:30 devuqaab-VirtualBox CRON[7384]: pam_unix(cron:session): session closed for user root
+2026-08-04T20:55:01.910085+05:30 devuqaab-VirtualBox CRON[7712]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-08-04T20:55:01.918760+05:30 devuqaab-VirtualBox CRON[7712]: pam_unix(cron:session): session closed for user root
+2026-08-04T21:29:19.409836+05:30 devuqaab-VirtualBox gdm-password]: gkr-pam: unlocked login keyring
+2026-08-04T21:30:01.244336+05:30 devuqaab-VirtualBox CRON[8194]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-08-04T21:30:01.250359+05:30 devuqaab-VirtualBox CRON[8194]: pam_unix(cron:session): session closed for user root
+2026-08-04T21:35:01.265165+05:30 devuqaab-VirtualBox CRON[8326]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-08-04T21:35:01.274651+05:30 devuqaab-VirtualBox CRON[8326]: pam_unix(cron:session): session closed for user root
+2026-08-04T21:45:01.316088+05:30 devuqaab-VirtualBox CRON[8544]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-08-04T21:45:01.325153+05:30 devuqaab-VirtualBox CRON[8544]: pam_unix(cron:session): session closed for user root
+2026-08-05T10:47:01.780341+05:30 devuqaab-VirtualBox systemd-logind[1052]: New seat seat0.
+2026-08-05T10:47:01.780352+05:30 devuqaab-VirtualBox systemd-logind[1052]: Watching system buttons on /dev/input/event0 (Power Button)
+2026-08-05T10:47:01.780357+05:30 devuqaab-VirtualBox systemd-logind[1052]: Watching system buttons on /dev/input/event1 (Sleep Button)
+2026-08-05T10:47:01.780362+05:30 devuqaab-VirtualBox systemd-logind[1052]: Watching system buttons on /dev/input/event2 (AT Translated Set 2 keyboard)
+2026-08-05T10:47:02.262845+05:30 devuqaab-VirtualBox polkitd[1001]: Loading rules from directory /etc/polkit-1/rules.d
+2026-08-05T10:47:02.299591+05:30 devuqaab-VirtualBox polkitd[1001]: Loading rules from directory /usr/share/polkit-1/rules.d
+2026-08-05T10:47:02.688725+05:30 devuqaab-VirtualBox polkitd[1001]: Finished loading, compiling and executing 16 rules
+2026-08-05T10:47:02.726605+05:30 devuqaab-VirtualBox polkitd[1001]: Acquired the name org.freedesktop.PolicyKit1 on the system bus
+2026-08-05T10:47:08.721938+05:30 devuqaab-VirtualBox gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session opened for user gdm(uid=120) by (uid=0)
+2026-08-05T10:47:08.862181+05:30 devuqaab-VirtualBox systemd-logind[1052]: New session c1 of user gdm.
+2026-08-05T10:47:08.968620+05:30 devuqaab-VirtualBox (systemd): pam_unix(systemd-user:session): session opened for user gdm(uid=120) by gdm(uid=0)
+2026-08-05T10:47:23.855195+05:30 devuqaab-VirtualBox polkitd[1001]: Registered Authentication Agent for unix-session:c1 (system bus name :1.44 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+2026-08-05T10:48:17.613333+05:30 devuqaab-VirtualBox gdm-password]: gkr-pam: unable to locate daemon control file
+2026-08-05T10:48:17.615250+05:30 devuqaab-VirtualBox gdm-password]: gkr-pam: stashed password to try later in open session
+2026-08-05T10:48:17.664937+05:30 devuqaab-VirtualBox gdm-password]: pam_unix(gdm-password:session): session opened for user devuqaab(uid=1000) by devuqaab(uid=0)
+2026-08-05T10:48:17.727545+05:30 devuqaab-VirtualBox systemd-logind[1052]: New session 2 of user devuqaab.
+2026-08-05T10:48:17.828097+05:30 devuqaab-VirtualBox (systemd): pam_unix(systemd-user:session): session opened for user devuqaab(uid=1000) by devuqaab(uid=0)
+2026-08-05T10:48:19.140522+05:30 devuqaab-VirtualBox gdm-password]: gkr-pam: unlocked login keyring
+2026-08-05T10:48:20.557619+05:30 devuqaab-VirtualBox gnome-keyring-daemon[2505]: The PKCS#11 component was already initialized
+2026-08-05T10:48:20.559192+05:30 devuqaab-VirtualBox gnome-keyring-daemon[2726]: discover_other_daemon: 1
+2026-08-05T10:48:20.579393+05:30 devuqaab-VirtualBox gnome-keyring-daemon[2728]: discover_other_daemon: 1
+2026-08-05T10:48:20.587149+05:30 devuqaab-VirtualBox gnome-keyring-daemon[2505]: The Secret Service was already initialized
+2026-08-05T10:48:20.591239+05:30 devuqaab-VirtualBox gnome-keyring-daemon[2729]: discover_other_daemon: 1
+2026-08-05T10:48:26.916023+05:30 devuqaab-VirtualBox polkitd[1001]: Registered Authentication Agent for unix-session:2 (system bus name :1.85 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+2026-08-05T10:48:34.118705+05:30 devuqaab-VirtualBox gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session closed for user gdm
+2026-08-05T10:48:34.180774+05:30 devuqaab-VirtualBox systemd-logind[1052]: Session c1 logged out. Waiting for processes to exit.
+2026-08-05T10:48:34.218669+05:30 devuqaab-VirtualBox polkitd[1001]: Unregistered Authentication Agent for unix-session:c1 (system bus name :1.44, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+2026-08-05T10:48:34.249226+05:30 devuqaab-VirtualBox systemd-logind[1052]: Removed session c1.
+2026-08-05T10:49:44.206102+05:30 devuqaab-VirtualBox dbus-daemon[964]: [system] Failed to activate service 'org.bluez': timed out (service_start_timeout=25000ms)
+2026-08-05T10:49:49.008972+05:30 devuqaab-VirtualBox pkexec: pam_unix(polkit-1:session): session opened for user root(uid=0) by devuqaab(uid=1000)
+2026-08-05T10:49:49.019238+05:30 devuqaab-VirtualBox pkexec[4362]: devuqaab: Executing command [USER=root] [TTY=unknown] [CWD=/home/devuqaab] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+2026-08-05T10:50:03.662568+05:30 devuqaab-VirtualBox gnome-keyring-daemon[2505]: asked to register item /org/freedesktop/secrets/collection/login/1, but it's already registered
+2026-08-05T10:55:01.274456+05:30 devuqaab-VirtualBox CRON[5763]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-08-05T10:55:01.288443+05:30 devuqaab-VirtualBox CRON[5763]: pam_unix(cron:session): session closed for user root
+2026-08-05T10:55:26.863878+05:30 devuqaab-VirtualBox pkexec: pam_unix(polkit-1:session): session opened for user root(uid=0) by devuqaab(uid=1000)
+2026-08-05T10:55:26.869100+05:30 devuqaab-VirtualBox pkexec[5777]: devuqaab: Executing command [USER=root] [TTY=unknown] [CWD=/home/devuqaab] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+2026-08-05T11:05:01.538302+05:30 devuqaab-VirtualBox CRON[6320]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-08-05T11:05:01.595127+05:30 devuqaab-VirtualBox CRON[6320]: pam_unix(cron:session): session closed for user root
+2026-08-05T11:15:01.617479+05:30 devuqaab-VirtualBox CRON[6661]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-08-05T11:15:01.627322+05:30 devuqaab-VirtualBox CRON[6661]: pam_unix(cron:session): session closed for user root
+2026-08-05T11:17:01.645645+05:30 devuqaab-VirtualBox CRON[6717]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-08-05T11:17:01.680474+05:30 devuqaab-VirtualBox CRON[6717]: pam_unix(cron:session): session closed for user root
+2026-08-05T11:25:01.703197+05:30 devuqaab-VirtualBox CRON[6939]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-08-05T11:25:01.713554+05:30 devuqaab-VirtualBox CRON[6939]: pam_unix(cron:session): session closed for user root
+2026-08-05T11:30:01.752499+05:30 devuqaab-VirtualBox CRON[7382]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-08-05T11:30:01.760060+05:30 devuqaab-VirtualBox CRON[7382]: pam_unix(cron:session): session closed for user root
+2026-08-05T11:35:01.774953+05:30 devuqaab-VirtualBox CRON[7937]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-08-05T11:35:01.786566+05:30 devuqaab-VirtualBox CRON[7937]: pam_unix(cron:session): session closed for user root
+2026-08-05T11:44:22.233692+05:30 devuqaab-VirtualBox dbus-daemon[964]: [system] Failed to activate service 'org.bluez': timed out (service_start_timeout=25000ms)
+2026-08-05T11:45:01.817792+05:30 devuqaab-VirtualBox CRON[8233]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-08-05T11:45:01.831514+05:30 devuqaab-VirtualBox CRON[8233]: pam_unix(cron:session): session closed for user root
+2026-08-05T11:55:01.900271+05:30 devuqaab-VirtualBox CRON[8712]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-08-05T11:55:01.912926+05:30 devuqaab-VirtualBox CRON[8712]: pam_unix(cron:session): session closed for user root
+2026-08-05T12:05:01.983583+05:30 devuqaab-VirtualBox CRON[9421]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-08-05T12:05:01.995390+05:30 devuqaab-VirtualBox CRON[9421]: pam_unix(cron:session): session closed for user root
+2026-08-05T12:15:01.090260+05:30 devuqaab-VirtualBox CRON[9695]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-08-05T12:15:01.104046+05:30 devuqaab-VirtualBox CRON[9695]: pam_unix(cron:session): session closed for user root
+2026-08-05T12:17:01.118528+05:30 devuqaab-VirtualBox CRON[9924]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-08-05T12:17:01.134369+05:30 devuqaab-VirtualBox CRON[9924]: pam_unix(cron:session): session closed for user root
+2026-08-05T12:21:04.574810+05:30 devuqaab-VirtualBox gdm-password]: gkr-pam: unlocked login keyring
+2026-08-05T12:25:01.161126+05:30 devuqaab-VirtualBox CRON[10158]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-08-05T12:25:01.174914+05:30 devuqaab-VirtualBox CRON[10158]: pam_unix(cron:session): session closed for user root
+2026-08-05T12:28:26.739390+05:30 devuqaab-VirtualBox pkexec: pam_unix(polkit-1:session): session opened for user root(uid=0) by devuqaab(uid=1000)
+2026-08-05T12:28:26.752205+05:30 devuqaab-VirtualBox pkexec[10290]: devuqaab: Executing command [USER=root] [TTY=unknown] [CWD=/home/devuqaab] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+2026-08-05T12:30:01.193897+05:30 devuqaab-VirtualBox CRON[10330]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-08-05T12:30:01.201689+05:30 devuqaab-VirtualBox CRON[10330]: pam_unix(cron:session): session closed for user root
+2026-08-05T12:35:01.232829+05:30 devuqaab-VirtualBox CRON[10431]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-08-05T12:35:01.261589+05:30 devuqaab-VirtualBox CRON[10431]: pam_unix(cron:session): session closed for user root
+2026-08-05T12:45:01.421886+05:30 devuqaab-VirtualBox CRON[10622]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-08-05T12:45:01.436430+05:30 devuqaab-VirtualBox CRON[10622]: pam_unix(cron:session): session closed for user root
+2026-08-05T12:55:01.462929+05:30 devuqaab-VirtualBox CRON[10788]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-08-05T12:55:01.477064+05:30 devuqaab-VirtualBox CRON[10788]: pam_unix(cron:session): session closed for user root
+2026-08-05T13:05:01.648162+05:30 devuqaab-VirtualBox CRON[10952]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-08-05T13:05:01.659520+05:30 devuqaab-VirtualBox CRON[10952]: pam_unix(cron:session): session closed for user root
+2026-08-05T13:15:01.702932+05:30 devuqaab-VirtualBox CRON[11108]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-08-05T13:15:01.718330+05:30 devuqaab-VirtualBox CRON[11108]: pam_unix(cron:session): session closed for user root
+2026-08-05T13:17:01.734579+05:30 devuqaab-VirtualBox CRON[11138]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-08-05T13:17:01.746989+05:30 devuqaab-VirtualBox CRON[11138]: pam_unix(cron:session): session closed for user root
+2026-08-05T13:25:01.778355+05:30 devuqaab-VirtualBox CRON[11270]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-08-05T13:25:01.793477+05:30 devuqaab-VirtualBox CRON[11270]: pam_unix(cron:session): session closed for user root
+2026-08-05T13:30:01.860553+05:30 devuqaab-VirtualBox CRON[11362]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-08-05T13:30:01.870636+05:30 devuqaab-VirtualBox CRON[11362]: pam_unix(cron:session): session closed for user root
+2026-08-05T13:35:01.938501+05:30 devuqaab-VirtualBox CRON[11435]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-08-05T13:35:01.954744+05:30 devuqaab-VirtualBox CRON[11435]: pam_unix(cron:session): session closed for user root
+2026-08-05T17:56:42.079349+05:30 devuqaab-VirtualBox systemd-logind[1114]: New seat seat0.
+2026-08-05T17:56:42.150324+05:30 devuqaab-VirtualBox systemd-logind[1114]: Watching system buttons on /dev/input/event0 (Power Button)
+2026-08-05T17:56:42.150453+05:30 devuqaab-VirtualBox systemd-logind[1114]: Watching system buttons on /dev/input/event1 (Sleep Button)
+2026-08-05T17:56:42.150499+05:30 devuqaab-VirtualBox systemd-logind[1114]: Watching system buttons on /dev/input/event2 (AT Translated Set 2 keyboard)
+2026-08-05T17:56:42.395728+05:30 devuqaab-VirtualBox polkitd[1077]: Loading rules from directory /etc/polkit-1/rules.d
+2026-08-05T17:56:42.404997+05:30 devuqaab-VirtualBox polkitd[1077]: Loading rules from directory /usr/share/polkit-1/rules.d
+2026-08-05T17:56:42.555101+05:30 devuqaab-VirtualBox polkitd[1077]: Finished loading, compiling and executing 16 rules
+2026-08-05T17:56:42.556190+05:30 devuqaab-VirtualBox polkitd[1077]: Acquired the name org.freedesktop.PolicyKit1 on the system bus
+2026-08-05T17:56:49.000252+05:30 devuqaab-VirtualBox gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session opened for user gdm(uid=120) by (uid=0)
+2026-08-05T17:56:49.046585+05:30 devuqaab-VirtualBox systemd-logind[1114]: New session c1 of user gdm.
+2026-08-05T17:56:49.193173+05:30 devuqaab-VirtualBox (systemd): pam_unix(systemd-user:session): session opened for user gdm(uid=120) by gdm(uid=0)
+2026-08-05T17:57:03.862973+05:30 devuqaab-VirtualBox polkitd[1077]: Registered Authentication Agent for unix-session:c1 (system bus name :1.45 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+2026-08-05T17:57:45.942776+05:30 devuqaab-VirtualBox gdm-password]: gkr-pam: unable to locate daemon control file
+2026-08-05T17:57:45.944246+05:30 devuqaab-VirtualBox gdm-password]: gkr-pam: stashed password to try later in open session
+2026-08-05T17:57:46.008834+05:30 devuqaab-VirtualBox gdm-password]: pam_unix(gdm-password:session): session opened for user devuqaab(uid=1000) by devuqaab(uid=0)
+2026-08-05T17:57:46.052492+05:30 devuqaab-VirtualBox systemd-logind[1114]: New session 2 of user devuqaab.
+2026-08-05T17:57:46.179693+05:30 devuqaab-VirtualBox (systemd): pam_unix(systemd-user:session): session opened for user devuqaab(uid=1000) by devuqaab(uid=0)
+2026-08-05T17:57:47.562083+05:30 devuqaab-VirtualBox gdm-password]: gkr-pam: unlocked login keyring
+2026-08-05T17:57:49.055230+05:30 devuqaab-VirtualBox gnome-keyring-daemon[2665]: discover_other_daemon: 1
+2026-08-05T17:57:49.056198+05:30 devuqaab-VirtualBox gnome-keyring-daemon[2462]: The PKCS#11 component was already initialized
+2026-08-05T17:57:49.060249+05:30 devuqaab-VirtualBox gnome-keyring-daemon[2462]: The Secret Service was already initialized
+2026-08-05T17:57:49.061615+05:30 devuqaab-VirtualBox gnome-keyring-daemon[2667]: discover_other_daemon: 1
+2026-08-05T17:57:49.061654+05:30 devuqaab-VirtualBox gnome-keyring-daemon[2666]: discover_other_daemon: 1
+2026-08-05T17:57:55.576365+05:30 devuqaab-VirtualBox polkitd[1077]: Registered Authentication Agent for unix-session:2 (system bus name :1.85 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+2026-08-05T17:57:58.141452+05:30 devuqaab-VirtualBox gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session closed for user gdm
+2026-08-05T17:57:58.178032+05:30 devuqaab-VirtualBox systemd-logind[1114]: Session c1 logged out. Waiting for processes to exit.
+2026-08-05T17:57:58.348902+05:30 devuqaab-VirtualBox polkitd[1077]: Unregistered Authentication Agent for unix-session:c1 (system bus name :1.45, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+2026-08-05T17:57:58.360210+05:30 devuqaab-VirtualBox systemd-logind[1114]: Removed session c1.
+2026-08-05T17:59:02.818581+05:30 devuqaab-VirtualBox dbus-daemon[1049]: [system] Failed to activate service 'org.bluez': timed out (service_start_timeout=25000ms)
+2026-08-05T17:59:25.405826+05:30 devuqaab-VirtualBox gnome-keyring-daemon[2462]: asked to register item /org/freedesktop/secrets/collection/login/1, but it's already registered
+2026-08-05T17:59:47.747213+05:30 devuqaab-VirtualBox pkexec: pam_unix(polkit-1:session): session opened for user root(uid=0) by devuqaab(uid=1000)
+2026-08-05T17:59:47.760271+05:30 devuqaab-VirtualBox pkexec[4946]: devuqaab: Executing command [USER=root] [TTY=unknown] [CWD=/home/devuqaab] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+2026-08-05T18:01:20.843125+05:30 devuqaab-VirtualBox dbus-daemon[1049]: [system] Failed to activate service 'org.bluez': timed out (service_start_timeout=25000ms)
+2026-08-05T18:05:01.934479+05:30 devuqaab-VirtualBox CRON[5316]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-08-05T18:05:01.951999+05:30 devuqaab-VirtualBox CRON[5316]: pam_unix(cron:session): session closed for user root
+2026-08-05T18:05:49.056943+05:30 devuqaab-VirtualBox gdm-password]: gkr-pam: unlocked login keyring
+2026-08-05T18:15:01.974373+05:30 devuqaab-VirtualBox CRON[6171]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-08-05T18:15:01.990306+05:30 devuqaab-VirtualBox CRON[6171]: pam_unix(cron:session): session closed for user root
+2026-08-05T18:17:02.022467+05:30 devuqaab-VirtualBox CRON[6217]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-08-05T18:17:02.069511+05:30 devuqaab-VirtualBox CRON[6217]: pam_unix(cron:session): session closed for user root
+2026-08-05T18:25:01.123610+05:30 devuqaab-VirtualBox CRON[6390]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-08-05T18:25:01.141072+05:30 devuqaab-VirtualBox CRON[6390]: pam_unix(cron:session): session closed for user root
+2026-08-05T18:30:01.164425+05:30 devuqaab-VirtualBox CRON[6493]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-08-05T18:30:01.175596+05:30 devuqaab-VirtualBox CRON[6493]: pam_unix(cron:session): session closed for user root
+2026-08-05T18:35:01.193295+05:30 devuqaab-VirtualBox CRON[6596]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-08-05T18:35:01.210744+05:30 devuqaab-VirtualBox CRON[6596]: pam_unix(cron:session): session closed for user root
+2026-08-05T18:45:01.272087+05:30 devuqaab-VirtualBox CRON[6804]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-08-05T18:45:01.287363+05:30 devuqaab-VirtualBox CRON[6804]: pam_unix(cron:session): session closed for user root
+2026-08-05T18:55:01.375118+05:30 devuqaab-VirtualBox CRON[7005]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-08-05T18:55:01.388153+05:30 devuqaab-VirtualBox CRON[7005]: pam_unix(cron:session): session closed for user root
+2026-08-05T19:05:01.412282+05:30 devuqaab-VirtualBox CRON[7244]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-08-05T19:05:01.426901+05:30 devuqaab-VirtualBox CRON[7244]: pam_unix(cron:session): session closed for user root
+2026-08-05T19:15:01.451122+05:30 devuqaab-VirtualBox CRON[7440]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-08-05T19:15:01.466871+05:30 devuqaab-VirtualBox CRON[7440]: pam_unix(cron:session): session closed for user root
+2026-08-05T19:17:01.500203+05:30 devuqaab-VirtualBox CRON[7481]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-08-05T19:17:01.527232+05:30 devuqaab-VirtualBox CRON[7481]: pam_unix(cron:session): session closed for user root
+2026-08-05T19:25:01.635737+05:30 devuqaab-VirtualBox CRON[7645]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-08-05T19:25:01.697796+05:30 devuqaab-VirtualBox CRON[7645]: pam_unix(cron:session): session closed for user root
+2026-08-05T19:30:01.750552+05:30 devuqaab-VirtualBox CRON[7734]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-08-05T19:30:01.760754+05:30 devuqaab-VirtualBox CRON[7734]: pam_unix(cron:session): session closed for user root
+2026-08-05T19:35:01.776032+05:30 devuqaab-VirtualBox CRON[7833]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-08-05T19:35:01.790509+05:30 devuqaab-VirtualBox CRON[7833]: pam_unix(cron:session): session closed for user root
+2026-08-05T19:45:01.894445+05:30 devuqaab-VirtualBox CRON[8018]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-08-05T19:45:01.911283+05:30 devuqaab-VirtualBox CRON[8018]: pam_unix(cron:session): session closed for user root
+2026-08-05T19:55:01.941813+05:30 devuqaab-VirtualBox CRON[8204]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-08-05T19:55:01.956521+05:30 devuqaab-VirtualBox CRON[8204]: pam_unix(cron:session): session closed for user root
+2026-08-05T20:05:02.008265+05:30 devuqaab-VirtualBox CRON[8388]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-08-05T20:05:02.019272+05:30 devuqaab-VirtualBox CRON[8388]: pam_unix(cron:session): session closed for user root
+2026-08-05T20:15:01.047958+05:30 devuqaab-VirtualBox CRON[8590]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-08-05T20:15:01.063898+05:30 devuqaab-VirtualBox CRON[8590]: pam_unix(cron:session): session closed for user root
+2026-08-05T20:17:01.103079+05:30 devuqaab-VirtualBox CRON[8640]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-08-05T20:17:01.120219+05:30 devuqaab-VirtualBox CRON[8640]: pam_unix(cron:session): session closed for user root
+2026-08-05T20:25:01.143193+05:30 devuqaab-VirtualBox CRON[8800]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-08-05T20:25:01.161034+05:30 devuqaab-VirtualBox CRON[8800]: pam_unix(cron:session): session closed for user root
+2026-08-05T20:30:01.176408+05:30 devuqaab-VirtualBox CRON[8896]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-08-05T20:30:01.198999+05:30 devuqaab-VirtualBox CRON[8896]: pam_unix(cron:session): session closed for user root
+2026-08-05T20:35:01.217369+05:30 devuqaab-VirtualBox CRON[9004]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-08-05T20:35:01.231638+05:30 devuqaab-VirtualBox CRON[9004]: pam_unix(cron:session): session closed for user root
+2026-08-05T20:45:01.256879+05:30 devuqaab-VirtualBox CRON[9307]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-08-05T20:45:01.273878+05:30 devuqaab-VirtualBox CRON[9307]: pam_unix(cron:session): session closed for user root
+2026-08-05T20:55:01.331327+05:30 devuqaab-VirtualBox CRON[9497]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-08-05T20:55:01.347536+05:30 devuqaab-VirtualBox CRON[9497]: pam_unix(cron:session): session closed for user root
+2026-08-05T21:05:01.415366+05:30 devuqaab-VirtualBox CRON[9766]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-08-05T21:05:01.428500+05:30 devuqaab-VirtualBox CRON[9766]: pam_unix(cron:session): session closed for user root
+2026-08-05T21:15:01.462337+05:30 devuqaab-VirtualBox CRON[9961]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-08-05T21:15:01.475119+05:30 devuqaab-VirtualBox CRON[9961]: pam_unix(cron:session): session closed for user root
+2026-08-05T21:17:01.490303+05:30 devuqaab-VirtualBox CRON[10007]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-08-05T21:17:01.503025+05:30 devuqaab-VirtualBox CRON[10007]: pam_unix(cron:session): session closed for user root
+2026-08-06T11:15:03.533973+05:30 devuqaab-VirtualBox systemd-logind[1134]: New seat seat0.
+2026-08-06T11:15:03.534031+05:30 devuqaab-VirtualBox systemd-logind[1134]: Watching system buttons on /dev/input/event0 (Power Button)
+2026-08-06T11:15:03.534042+05:30 devuqaab-VirtualBox systemd-logind[1134]: Watching system buttons on /dev/input/event1 (Sleep Button)
+2026-08-06T11:15:03.534049+05:30 devuqaab-VirtualBox systemd-logind[1134]: Watching system buttons on /dev/input/event2 (AT Translated Set 2 keyboard)
+2026-08-06T11:15:03.969692+05:30 devuqaab-VirtualBox polkitd[1089]: Loading rules from directory /etc/polkit-1/rules.d
+2026-08-06T11:15:03.976655+05:30 devuqaab-VirtualBox polkitd[1089]: Loading rules from directory /usr/share/polkit-1/rules.d
+2026-08-06T11:15:04.110289+05:30 devuqaab-VirtualBox polkitd[1089]: Finished loading, compiling and executing 16 rules
+2026-08-06T11:15:04.112146+05:30 devuqaab-VirtualBox polkitd[1089]: Acquired the name org.freedesktop.PolicyKit1 on the system bus
+2026-08-06T11:15:10.802909+05:30 devuqaab-VirtualBox gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session opened for user gdm(uid=120) by (uid=0)
+2026-08-06T11:15:10.904443+05:30 devuqaab-VirtualBox systemd-logind[1134]: New session c1 of user gdm.
+2026-08-06T11:15:11.055033+05:30 devuqaab-VirtualBox (systemd): pam_unix(systemd-user:session): session opened for user gdm(uid=120) by gdm(uid=0)
+2026-08-06T11:15:26.414478+05:30 devuqaab-VirtualBox polkitd[1089]: Registered Authentication Agent for unix-session:c1 (system bus name :1.43 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+2026-08-06T11:17:01.195856+05:30 devuqaab-VirtualBox CRON[2531]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-08-06T11:17:01.208981+05:30 devuqaab-VirtualBox CRON[2531]: pam_unix(cron:session): session closed for user root
+2026-08-06T11:21:00.249797+05:30 devuqaab-VirtualBox gdm-password]: gkr-pam: unable to locate daemon control file
+2026-08-06T11:21:00.250157+05:30 devuqaab-VirtualBox gdm-password]: gkr-pam: stashed password to try later in open session
+2026-08-06T11:21:00.449948+05:30 devuqaab-VirtualBox gdm-password]: pam_unix(gdm-password:session): session opened for user devuqaab(uid=1000) by devuqaab(uid=0)
+2026-08-06T11:21:00.895256+05:30 devuqaab-VirtualBox systemd-logind[1134]: New session 3 of user devuqaab.
+2026-08-06T11:21:01.848125+05:30 devuqaab-VirtualBox (systemd): pam_unix(systemd-user:session): session opened for user devuqaab(uid=1000) by devuqaab(uid=0)
+2026-08-06T11:21:04.303956+05:30 devuqaab-VirtualBox gdm-password]: gkr-pam: unlocked login keyring
+2026-08-06T11:21:09.696766+05:30 devuqaab-VirtualBox gnome-keyring-daemon[2680]: The Secret Service was already initialized
+2026-08-06T11:21:09.700185+05:30 devuqaab-VirtualBox gnome-keyring-daemon[2891]: discover_other_daemon: 1
+2026-08-06T11:21:09.778374+05:30 devuqaab-VirtualBox gnome-keyring-daemon[2680]: The PKCS#11 component was already initialized
+2026-08-06T11:21:09.778871+05:30 devuqaab-VirtualBox gnome-keyring-daemon[2897]: discover_other_daemon: 1
+2026-08-06T11:21:09.884262+05:30 devuqaab-VirtualBox gnome-keyring-daemon[2898]: discover_other_daemon: 1
+2026-08-06T11:21:23.052245+05:30 devuqaab-VirtualBox polkitd[1089]: Registered Authentication Agent for unix-session:3 (system bus name :1.84 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+2026-08-06T11:21:34.568603+05:30 devuqaab-VirtualBox gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session closed for user gdm
+2026-08-06T11:21:34.734785+05:30 devuqaab-VirtualBox systemd-logind[1134]: Session c1 logged out. Waiting for processes to exit.
+2026-08-06T11:21:34.780382+05:30 devuqaab-VirtualBox polkitd[1089]: Unregistered Authentication Agent for unix-session:c1 (system bus name :1.43, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+2026-08-06T11:21:34.817343+05:30 devuqaab-VirtualBox systemd-logind[1134]: Removed session c1.
+2026-08-06T11:21:46.182493+05:30 devuqaab-VirtualBox (sd-pam): pam_unix(systemd-user:session): session closed for user gdm
+2026-08-06T11:22:22.428576+05:30 devuqaab-VirtualBox pkexec: pam_unix(polkit-1:session): session opened for user root(uid=0) by devuqaab(uid=1000)
+2026-08-06T11:22:22.432896+05:30 devuqaab-VirtualBox pkexec[5263]: devuqaab: Executing command [USER=root] [TTY=unknown] [CWD=/home/devuqaab] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+2026-08-06T11:25:01.403549+05:30 devuqaab-VirtualBox CRON[6692]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-08-06T11:25:01.442766+05:30 devuqaab-VirtualBox CRON[6692]: pam_unix(cron:session): session closed for user root
+2026-08-06T11:30:01.490884+05:30 devuqaab-VirtualBox CRON[6919]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-08-06T11:30:01.502302+05:30 devuqaab-VirtualBox CRON[6919]: pam_unix(cron:session): session closed for user root
+2026-08-06T11:35:01.586181+05:30 devuqaab-VirtualBox CRON[7222]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-08-06T11:35:01.611687+05:30 devuqaab-VirtualBox CRON[7222]: pam_unix(cron:session): session closed for user root
+2026-08-06T11:43:44.119005+05:30 devuqaab-VirtualBox gdm-password]: pam_unix(gdm-password:auth): conversation failed
+2026-08-06T11:43:44.119281+05:30 devuqaab-VirtualBox gdm-password]: pam_unix(gdm-password:auth): auth could not identify password for [devuqaab]
+2026-08-06T11:43:44.912666+05:30 devuqaab-VirtualBox gdm-password]: pam_unix(gdm-password:auth): conversation failed
+2026-08-06T11:43:44.913555+05:30 devuqaab-VirtualBox gdm-password]: pam_unix(gdm-password:auth): auth could not identify password for [devuqaab]
+2026-08-06T11:43:52.640242+05:30 devuqaab-VirtualBox gdm-password]: gkr-pam: unlocked login keyring
+2026-08-06T11:45:01.779375+05:30 devuqaab-VirtualBox CRON[7557]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-08-06T11:45:01.796483+05:30 devuqaab-VirtualBox CRON[7557]: pam_unix(cron:session): session closed for user root
+2026-08-06T11:55:01.045654+05:30 devuqaab-VirtualBox CRON[7755]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-08-06T11:55:01.055210+05:30 devuqaab-VirtualBox CRON[7755]: pam_unix(cron:session): session closed for user root
+2026-08-06T11:57:18.860965+05:30 devuqaab-VirtualBox dbus-daemon[1077]: [system] Failed to activate service 'org.bluez': timed out (service_start_timeout=25000ms)
+2026-08-06T12:05:01.874627+05:30 devuqaab-VirtualBox CRON[8070]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-08-06T12:05:01.888240+05:30 devuqaab-VirtualBox CRON[8070]: pam_unix(cron:session): session closed for user root
+2026-08-06T12:15:01.915801+05:30 devuqaab-VirtualBox CRON[8472]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-08-06T12:15:01.927198+05:30 devuqaab-VirtualBox CRON[8472]: pam_unix(cron:session): session closed for user root
+2026-08-06T12:17:01.987989+05:30 devuqaab-VirtualBox CRON[8517]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-08-06T12:17:02.001726+05:30 devuqaab-VirtualBox CRON[8517]: pam_unix(cron:session): session closed for user root
+2026-08-06T12:25:01.102960+05:30 devuqaab-VirtualBox CRON[8708]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-08-06T12:25:01.114992+05:30 devuqaab-VirtualBox CRON[8708]: pam_unix(cron:session): session closed for user root
+2026-08-06T12:30:01.131980+05:30 devuqaab-VirtualBox CRON[8810]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-08-06T12:30:01.140590+05:30 devuqaab-VirtualBox CRON[8810]: pam_unix(cron:session): session closed for user root
+2026-08-06T12:35:01.185945+05:30 devuqaab-VirtualBox CRON[8907]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-08-06T12:35:01.200828+05:30 devuqaab-VirtualBox CRON[8907]: pam_unix(cron:session): session closed for user root
+2026-08-06T12:45:01.287219+05:30 devuqaab-VirtualBox CRON[9090]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-08-06T12:45:01.302887+05:30 devuqaab-VirtualBox CRON[9090]: pam_unix(cron:session): session closed for user root
+2026-08-06T12:55:01.691578+05:30 devuqaab-VirtualBox CRON[9252]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-08-06T12:55:01.703410+05:30 devuqaab-VirtualBox CRON[9252]: pam_unix(cron:session): session closed for user root
+2026-08-06T13:00:24.480795+05:30 devuqaab-VirtualBox gdm-password]: gkr-pam: unlocked login keyring
+2026-08-06T13:05:01.873087+05:30 devuqaab-VirtualBox CRON[9631]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-08-06T13:05:01.890246+05:30 devuqaab-VirtualBox CRON[9631]: pam_unix(cron:session): session closed for user root
+2026-08-06T13:15:01.906825+05:30 devuqaab-VirtualBox CRON[10423]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-08-06T13:15:01.922080+05:30 devuqaab-VirtualBox CRON[10423]: pam_unix(cron:session): session closed for user root
+2026-08-06T13:17:01.941501+05:30 devuqaab-VirtualBox CRON[10564]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-08-06T13:17:01.956418+05:30 devuqaab-VirtualBox CRON[10564]: pam_unix(cron:session): session closed for user root
+2026-08-06T13:25:01.984620+05:30 devuqaab-VirtualBox CRON[10978]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-08-06T13:25:01.999674+05:30 devuqaab-VirtualBox CRON[10978]: pam_unix(cron:session): session closed for user root
+2026-08-06T13:30:01.008806+05:30 devuqaab-VirtualBox CRON[11080]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-08-06T13:30:01.014415+05:30 devuqaab-VirtualBox CRON[11080]: pam_unix(cron:session): session closed for user root
+2026-08-06T13:35:01.036308+05:30 devuqaab-VirtualBox CRON[11189]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-08-06T13:35:01.050677+05:30 devuqaab-VirtualBox CRON[11189]: pam_unix(cron:session): session closed for user root
+2026-08-06T13:45:01.077611+05:30 devuqaab-VirtualBox CRON[11485]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-08-06T13:45:01.091790+05:30 devuqaab-VirtualBox CRON[11485]: pam_unix(cron:session): session closed for user root
+2026-08-06T13:55:01.110294+05:30 devuqaab-VirtualBox CRON[11735]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-08-06T13:55:01.131807+05:30 devuqaab-VirtualBox CRON[11735]: pam_unix(cron:session): session closed for user root
+2026-08-06T14:05:01.161974+05:30 devuqaab-VirtualBox CRON[11995]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-08-06T14:05:01.173743+05:30 devuqaab-VirtualBox CRON[11995]: pam_unix(cron:session): session closed for user root
+2026-08-06T14:15:01.256772+05:30 devuqaab-VirtualBox CRON[12213]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-08-06T14:15:01.267546+05:30 devuqaab-VirtualBox CRON[12213]: pam_unix(cron:session): session closed for user root
+2026-08-06T14:17:01.275419+05:30 devuqaab-VirtualBox CRON[12258]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-08-06T14:17:01.290014+05:30 devuqaab-VirtualBox CRON[12258]: pam_unix(cron:session): session closed for user root
+2026-08-06T14:25:01.431200+05:30 devuqaab-VirtualBox CRON[12430]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-08-06T14:25:01.442508+05:30 devuqaab-VirtualBox CRON[12430]: pam_unix(cron:session): session closed for user root
+2026-08-06T14:26:05.852105+05:30 devuqaab-VirtualBox gdm-password]: gkr-pam: unlocked login keyring
+2026-08-06T14:30:01.458461+05:30 devuqaab-VirtualBox CRON[12775]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-08-06T14:30:01.468983+05:30 devuqaab-VirtualBox CRON[12775]: pam_unix(cron:session): session closed for user root
+2026-08-06T14:35:01.498097+05:30 devuqaab-VirtualBox CRON[12931]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-08-06T14:35:01.511773+05:30 devuqaab-VirtualBox CRON[12931]: pam_unix(cron:session): session closed for user root
+2026-08-06T14:45:01.542452+05:30 devuqaab-VirtualBox CRON[13188]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-08-06T14:45:01.562939+05:30 devuqaab-VirtualBox CRON[13188]: pam_unix(cron:session): session closed for user root
+2026-08-06T14:55:01.593033+05:30 devuqaab-VirtualBox CRON[13474]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-08-06T14:55:01.606340+05:30 devuqaab-VirtualBox CRON[13474]: pam_unix(cron:session): session closed for user root
+2026-08-06T15:04:17.155812+05:30 devuqaab-VirtualBox gdm-password]: gkr-pam: unlocked login keyring
+2026-08-06T15:05:01.681058+05:30 devuqaab-VirtualBox CRON[13890]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-08-06T15:05:01.693519+05:30 devuqaab-VirtualBox CRON[13890]: pam_unix(cron:session): session closed for user root
+2026-08-06T15:15:01.855970+05:30 devuqaab-VirtualBox CRON[14145]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-08-06T15:15:01.866783+05:30 devuqaab-VirtualBox CRON[14145]: pam_unix(cron:session): session closed for user root
+2026-08-06T15:17:01.021831+05:30 devuqaab-VirtualBox CRON[14194]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-08-06T15:17:01.033643+05:30 devuqaab-VirtualBox CRON[14194]: pam_unix(cron:session): session closed for user root
+2026-08-06T15:18:00.004697+05:30 devuqaab-VirtualBox gdm-password]: gkr-pam: unlocked login keyring
+2026-08-06T15:25:01.088963+05:30 devuqaab-VirtualBox CRON[14600]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-08-06T15:25:01.107832+05:30 devuqaab-VirtualBox CRON[14600]: pam_unix(cron:session): session closed for user root
+2026-08-06T15:30:01.386322+05:30 devuqaab-VirtualBox CRON[14824]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-08-06T15:30:01.397270+05:30 devuqaab-VirtualBox CRON[14824]: pam_unix(cron:session): session closed for user root
+2026-08-06T15:32:14.961658+05:30 devuqaab-VirtualBox gdm-password]: gkr-pam: unlocked login keyring
+2026-08-06T15:35:01.413845+05:30 devuqaab-VirtualBox CRON[15037]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-08-06T15:35:01.426419+05:30 devuqaab-VirtualBox CRON[15037]: pam_unix(cron:session): session closed for user root
+2026-08-06T15:37:26.476033+05:30 devuqaab-VirtualBox gdm-password]: gkr-pam: unlocked login keyring
+2026-08-06T15:45:01.223726+05:30 devuqaab-VirtualBox CRON[15543]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-08-06T15:45:01.232438+05:30 devuqaab-VirtualBox CRON[15543]: pam_unix(cron:session): session closed for user root
+2026-08-06T15:55:01.265899+05:30 devuqaab-VirtualBox CRON[15799]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-08-06T15:55:01.279537+05:30 devuqaab-VirtualBox CRON[15799]: pam_unix(cron:session): session closed for user root
+2026-08-06T16:05:01.319339+05:30 devuqaab-VirtualBox CRON[16039]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-08-06T16:05:01.332058+05:30 devuqaab-VirtualBox CRON[16039]: pam_unix(cron:session): session closed for user root
+2026-08-06T16:15:01.360409+05:30 devuqaab-VirtualBox CRON[16271]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-08-06T16:15:01.370816+05:30 devuqaab-VirtualBox CRON[16271]: pam_unix(cron:session): session closed for user root
+2026-08-06T16:17:01.383225+05:30 devuqaab-VirtualBox CRON[16317]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-08-06T16:17:01.395380+05:30 devuqaab-VirtualBox CRON[16317]: pam_unix(cron:session): session closed for user root
+                                                                                                                                                                                                                                                                      2026-08-06T19:22:10.425980+05:30 devuqaab-VirtualBox systemd-logind[1044]: New seat seat0.
+2026-08-06T19:22:10.426075+05:30 devuqaab-VirtualBox systemd-logind[1044]: Watching system buttons on /dev/input/event0 (Power Button)
+2026-08-06T19:22:10.426088+05:30 devuqaab-VirtualBox systemd-logind[1044]: Watching system buttons on /dev/input/event1 (Sleep Button)
+2026-08-06T19:22:10.426095+05:30 devuqaab-VirtualBox systemd-logind[1044]: Watching system buttons on /dev/input/event2 (AT Translated Set 2 keyboard)
+2026-08-06T19:22:11.438317+05:30 devuqaab-VirtualBox polkitd[979]: Loading rules from directory /etc/polkit-1/rules.d
+2026-08-06T19:22:11.456748+05:30 devuqaab-VirtualBox polkitd[979]: Loading rules from directory /usr/share/polkit-1/rules.d
+2026-08-06T19:22:11.691494+05:30 devuqaab-VirtualBox polkitd[979]: Finished loading, compiling and executing 16 rules
+2026-08-06T19:22:11.694601+05:30 devuqaab-VirtualBox polkitd[979]: Acquired the name org.freedesktop.PolicyKit1 on the system bus
+2026-08-06T19:22:19.794386+05:30 devuqaab-VirtualBox gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session opened for user gdm(uid=120) by (uid=0)
+2026-08-06T19:22:19.908218+05:30 devuqaab-VirtualBox systemd-logind[1044]: New session c1 of user gdm.
+2026-08-06T19:22:20.165316+05:30 devuqaab-VirtualBox (systemd): pam_unix(systemd-user:session): session opened for user gdm(uid=120) by gdm(uid=0)
+2026-08-06T19:22:37.082273+05:30 devuqaab-VirtualBox polkitd[979]: Registered Authentication Agent for unix-session:c1 (system bus name :1.43 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+2026-08-06T19:22:55.967157+05:30 devuqaab-VirtualBox gdm-password]: gkr-pam: unable to locate daemon control file
+2026-08-06T19:22:55.969310+05:30 devuqaab-VirtualBox gdm-password]: gkr-pam: stashed password to try later in open session
+2026-08-06T19:22:56.020967+05:30 devuqaab-VirtualBox gdm-password]: pam_unix(gdm-password:session): session opened for user devuqaab(uid=1000) by devuqaab(uid=0)
+2026-08-06T19:22:56.070857+05:30 devuqaab-VirtualBox systemd-logind[1044]: New session 2 of user devuqaab.
+2026-08-06T19:22:56.160706+05:30 devuqaab-VirtualBox (systemd): pam_unix(systemd-user:session): session opened for user devuqaab(uid=1000) by devuqaab(uid=0)
+2026-08-06T19:22:57.481026+05:30 devuqaab-VirtualBox gdm-password]: gkr-pam: unlocked login keyring
+2026-08-06T19:22:58.902867+05:30 devuqaab-VirtualBox gnome-keyring-daemon[2463]: The Secret Service was already initialized
+2026-08-06T19:22:58.903728+05:30 devuqaab-VirtualBox gnome-keyring-daemon[2672]: discover_other_daemon: 1
+2026-08-06T19:22:58.926365+05:30 devuqaab-VirtualBox gnome-keyring-daemon[2463]: The PKCS#11 component was already initialized
+2026-08-06T19:22:58.927241+05:30 devuqaab-VirtualBox gnome-keyring-daemon[2675]: discover_other_daemon: 1
+2026-08-06T19:22:58.934217+05:30 devuqaab-VirtualBox gnome-keyring-daemon[2673]: discover_other_daemon: 1
+2026-08-06T19:23:05.500693+05:30 devuqaab-VirtualBox polkitd[979]: Registered Authentication Agent for unix-session:2 (system bus name :1.83 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+2026-08-06T19:23:08.048083+05:30 devuqaab-VirtualBox gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session closed for user gdm
+2026-08-06T19:23:08.128919+05:30 devuqaab-VirtualBox systemd-logind[1044]: Session c1 logged out. Waiting for processes to exit.
+2026-08-06T19:23:08.209549+05:30 devuqaab-VirtualBox systemd-logind[1044]: Removed session c1.
+2026-08-06T19:23:08.215747+05:30 devuqaab-VirtualBox polkitd[979]: Unregistered Authentication Agent for unix-session:c1 (system bus name :1.43, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+2026-08-06T19:24:07.589542+05:30 devuqaab-VirtualBox pkexec: pam_unix(polkit-1:session): session opened for user root(uid=0) by devuqaab(uid=1000)
+2026-08-06T19:24:07.593151+05:30 devuqaab-VirtualBox pkexec[3619]: devuqaab: Executing command [USER=root] [TTY=unknown] [CWD=/home/devuqaab] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+2026-08-06T19:25:01.921556+05:30 devuqaab-VirtualBox CRON[3717]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-08-06T19:25:01.935879+05:30 devuqaab-VirtualBox CRON[3717]: pam_unix(cron:session): session closed for user root
+2026-08-06T19:29:27.573981+05:30 devuqaab-VirtualBox systemd-logind[1132]: New seat seat0.
+2026-08-06T19:29:27.679747+05:30 devuqaab-VirtualBox systemd-logind[1132]: Watching system buttons on /dev/input/event0 (Power Button)
+2026-08-06T19:29:27.679983+05:30 devuqaab-VirtualBox systemd-logind[1132]: Watching system buttons on /dev/input/event1 (Sleep Button)
+2026-08-06T19:29:27.680144+05:30 devuqaab-VirtualBox systemd-logind[1132]: Watching system buttons on /dev/input/event2 (AT Translated Set 2 keyboard)
+2026-08-06T19:29:28.027269+05:30 devuqaab-VirtualBox polkitd[1107]: Loading rules from directory /etc/polkit-1/rules.d
+2026-08-06T19:29:28.046262+05:30 devuqaab-VirtualBox polkitd[1107]: Loading rules from directory /usr/share/polkit-1/rules.d
+2026-08-06T19:29:28.125435+05:30 devuqaab-VirtualBox polkitd[1107]: Finished loading, compiling and executing 16 rules
+2026-08-06T19:29:28.125790+05:30 devuqaab-VirtualBox polkitd[1107]: Acquired the name org.freedesktop.PolicyKit1 on the system bus
+2026-08-06T19:29:34.193521+05:30 devuqaab-VirtualBox gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session opened for user gdm(uid=120) by (uid=0)
+2026-08-06T19:29:34.300667+05:30 devuqaab-VirtualBox systemd-logind[1132]: New session c1 of user gdm.
+2026-08-06T19:29:34.410946+05:30 devuqaab-VirtualBox (systemd): pam_unix(systemd-user:session): session opened for user gdm(uid=120) by gdm(uid=0)
+2026-08-06T19:29:49.834389+05:30 devuqaab-VirtualBox polkitd[1107]: Registered Authentication Agent for unix-session:c1 (system bus name :1.43 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+2026-08-06T19:30:01.169741+05:30 devuqaab-VirtualBox CRON[2413]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-08-06T19:30:01.178546+05:30 devuqaab-VirtualBox CRON[2413]: pam_unix(cron:session): session closed for user root
+2026-08-06T19:30:09.841512+05:30 devuqaab-VirtualBox gdm-password]: gkr-pam: unable to locate daemon control file
+2026-08-06T19:30:09.841718+05:30 devuqaab-VirtualBox gdm-password]: gkr-pam: stashed password to try later in open session
+2026-08-06T19:30:09.924458+05:30 devuqaab-VirtualBox gdm-password]: pam_unix(gdm-password:session): session opened for user devuqaab(uid=1000) by devuqaab(uid=0)
+2026-08-06T19:30:09.981607+05:30 devuqaab-VirtualBox systemd-logind[1132]: New session 3 of user devuqaab.
+2026-08-06T19:30:10.073624+05:30 devuqaab-VirtualBox (systemd): pam_unix(systemd-user:session): session opened for user devuqaab(uid=1000) by devuqaab(uid=0)
+2026-08-06T19:30:11.174404+05:30 devuqaab-VirtualBox gdm-password]: gkr-pam: unlocked login keyring
+2026-08-06T19:30:12.554908+05:30 devuqaab-VirtualBox gnome-keyring-daemon[2451]: The Secret Service was already initialized
+2026-08-06T19:30:12.555778+05:30 devuqaab-VirtualBox gnome-keyring-daemon[2653]: discover_other_daemon: 1
+2026-08-06T19:30:12.588882+05:30 devuqaab-VirtualBox gnome-keyring-daemon[2451]: The PKCS#11 component was already initialized
+2026-08-06T19:30:12.589568+05:30 devuqaab-VirtualBox gnome-keyring-daemon[2661]: discover_other_daemon: 1
+2026-08-06T19:30:12.589654+05:30 devuqaab-VirtualBox gnome-keyring-daemon[2657]: discover_other_daemon: 1
+2026-08-06T19:30:19.042396+05:30 devuqaab-VirtualBox polkitd[1107]: Registered Authentication Agent for unix-session:3 (system bus name :1.84 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+2026-08-06T19:30:21.057020+05:30 devuqaab-VirtualBox gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session closed for user gdm
+2026-08-06T19:30:21.111545+05:30 devuqaab-VirtualBox systemd-logind[1132]: Session c1 logged out. Waiting for processes to exit.
+2026-08-06T19:30:21.222329+05:30 devuqaab-VirtualBox polkitd[1107]: Unregistered Authentication Agent for unix-session:c1 (system bus name :1.43, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+2026-08-06T19:30:21.310628+05:30 devuqaab-VirtualBox systemd-logind[1132]: Removed session c1.
+2026-08-06T19:31:20.352833+05:30 devuqaab-VirtualBox pkexec: pam_unix(polkit-1:session): session opened for user root(uid=0) by devuqaab(uid=1000)
+2026-08-06T19:31:20.357939+05:30 devuqaab-VirtualBox pkexec[4715]: devuqaab: Executing command [USER=root] [TTY=unknown] [CWD=/home/devuqaab] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+2026-08-06T19:35:01.777841+05:30 devuqaab-VirtualBox CRON[4802]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-08-06T19:35:01.795845+05:30 devuqaab-VirtualBox CRON[4802]: pam_unix(cron:session): session closed for user root
+2026-08-06T19:45:01.410493+05:30 devuqaab-VirtualBox CRON[5159]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-08-06T19:45:01.420452+05:30 devuqaab-VirtualBox CRON[5159]: pam_unix(cron:session): session closed for user root
+2026-08-06T19:45:31.143648+05:30 devuqaab-VirtualBox dbus-daemon[1097]: [system] Failed to activate service 'org.bluez': timed out (service_start_timeout=25000ms)
+2026-08-06T19:55:01.734968+05:30 devuqaab-VirtualBox CRON[5384]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-08-06T19:55:01.748096+05:30 devuqaab-VirtualBox CRON[5384]: pam_unix(cron:session): session closed for user root
+2026-08-06T20:03:31.041114+05:30 devuqaab-VirtualBox gdm-password]: gkr-pam: unlocked login keyring
+2026-08-06T20:05:01.127888+05:30 devuqaab-VirtualBox CRON[5672]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-08-06T20:05:01.141857+05:30 devuqaab-VirtualBox CRON[5672]: pam_unix(cron:session): session closed for user root
+2026-08-06T20:15:01.184954+05:30 devuqaab-VirtualBox CRON[5880]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-08-06T20:15:01.204168+05:30 devuqaab-VirtualBox CRON[5880]: pam_unix(cron:session): session closed for user root
+2026-08-06T20:17:01.223303+05:30 devuqaab-VirtualBox CRON[5931]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-08-06T20:17:01.253073+05:30 devuqaab-VirtualBox CRON[5931]: pam_unix(cron:session): session closed for user root
+2026-08-06T20:25:01.286957+05:30 devuqaab-VirtualBox CRON[6174]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-08-06T20:25:01.304861+05:30 devuqaab-VirtualBox CRON[6174]: pam_unix(cron:session): session closed for user root
+2026-08-06T20:29:04.986833+05:30 devuqaab-VirtualBox gdm-password]: gkr-pam: unlocked login keyring
+2026-08-06T20:30:01.326798+05:30 devuqaab-VirtualBox CRON[6521]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-08-06T20:30:01.334567+05:30 devuqaab-VirtualBox CRON[6521]: pam_unix(cron:session): session closed for user root
+2026-08-06T20:35:01.390202+05:30 devuqaab-VirtualBox CRON[7286]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-08-06T20:35:01.405416+05:30 devuqaab-VirtualBox CRON[7286]: pam_unix(cron:session): session closed for user root
+2026-08-06T20:45:01.581333+05:30 devuqaab-VirtualBox CRON[7942]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-08-06T20:45:01.692722+05:30 devuqaab-VirtualBox CRON[7942]: pam_unix(cron:session): session closed for user root
+2026-08-06T20:55:01.668193+05:30 devuqaab-VirtualBox CRON[10458]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-08-06T20:55:01.686891+05:30 devuqaab-VirtualBox CRON[10458]: pam_unix(cron:session): session closed for user root
+2026-08-06T21:24:36.404244+05:30 devuqaab-VirtualBox gdm-password]: gkr-pam: unlocked login keyring
+2026-08-06T21:25:01.211786+05:30 devuqaab-VirtualBox CRON[11102]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-08-06T21:25:01.231619+05:30 devuqaab-VirtualBox CRON[11102]: pam_unix(cron:session): session closed for user root
+2026-08-06T21:30:01.245587+05:30 devuqaab-VirtualBox CRON[11239]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-08-06T21:30:01.253159+05:30 devuqaab-VirtualBox CRON[11239]: pam_unix(cron:session): session closed for user root
+2026-08-06T21:35:01.268816+05:30 devuqaab-VirtualBox CRON[11372]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-08-06T21:35:01.282920+05:30 devuqaab-VirtualBox CRON[11372]: pam_unix(cron:session): session closed for user root
+2026-08-06T21:45:01.336016+05:30 devuqaab-VirtualBox CRON[11702]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-08-06T21:45:01.345746+05:30 devuqaab-VirtualBox CRON[11702]: pam_unix(cron:session): session closed for user root
+2026-08-06T21:45:05.496797+05:30 devuqaab-VirtualBox sudo: devuqaab : TTY=pts/0 ; PWD=/home/devuqaab/devops_devuqaab/gitlab ; USER=root ; COMMAND=/usr/bin/su
+2026-08-06T21:45:05.524375+05:30 devuqaab-VirtualBox sudo: pam_unix(sudo:session): session opened for user root(uid=0) by devuqaab(uid=1000)
+2026-08-06T21:45:05.540411+05:30 devuqaab-VirtualBox su[11712]: (to root) root on pts/1
+2026-08-06T21:45:05.546500+05:30 devuqaab-VirtualBox su[11712]: pam_unix(su:session): session opened for user root(uid=0) by devuqaab(uid=0)
+2026-08-06T21:45:23.664113+05:30 devuqaab-VirtualBox sudo:     root : TTY=pts/1 ; PWD=/home/devuqaab/devops_devuqaab/gitlab ; USER=root ; COMMAND=/usr/bin/curl -L --output /usr/local/bin/gitlab-runner https://gitlab-runner-downloads.s3.amazonaws.com/latest/binaries/gitlab-runner-linux-amd64
+2026-08-06T21:45:23.666855+05:30 devuqaab-VirtualBox sudo: pam_unix(sudo:session): session opened for user root(uid=0) by devuqaab(uid=0)
+2026-08-06T21:45:39.695824+05:30 devuqaab-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+2026-08-06T21:45:39.724049+05:30 devuqaab-VirtualBox sudo:     root : TTY=pts/1 ; PWD=/home/devuqaab/devops_devuqaab/gitlab ; USER=root ; COMMAND=/usr/bin/chmod +x /usr/local/bin/gitlab-runner
+2026-08-06T21:45:39.725308+05:30 devuqaab-VirtualBox sudo: pam_unix(sudo:session): session opened for user root(uid=0) by devuqaab(uid=0)
+2026-08-06T21:45:39.735852+05:30 devuqaab-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+2026-08-06T21:45:39.755524+05:30 devuqaab-VirtualBox sudo:     root : TTY=pts/1 ; PWD=/home/devuqaab/devops_devuqaab/gitlab ; USER=root ; COMMAND=/usr/sbin/useradd --comment 'GitLab Runner' --create-home gitlab-runner --shell /bin/bash
+2026-08-06T21:45:39.756948+05:30 devuqaab-VirtualBox sudo: pam_unix(sudo:session): session opened for user root(uid=0) by devuqaab(uid=0)
+2026-08-06T21:45:39.877608+05:30 devuqaab-VirtualBox useradd[11740]: new group: name=gitlab-runner, GID=1014
+2026-08-06T21:45:39.878288+05:30 devuqaab-VirtualBox useradd[11740]: new user: name=gitlab-runner, UID=1007, GID=1014, home=/home/gitlab-runner, shell=/bin/bash, from=/dev/pts/2
+2026-08-06T21:45:40.009969+05:30 devuqaab-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+2026-08-06T21:45:40.029053+05:30 devuqaab-VirtualBox sudo:     root : TTY=pts/1 ; PWD=/home/devuqaab/devops_devuqaab/gitlab ; USER=root ; COMMAND=/usr/local/bin/gitlab-runner install --user=gitlab-runner --working-directory=/home/gitlab-runner
+2026-08-06T21:45:40.030355+05:30 devuqaab-VirtualBox sudo: pam_unix(sudo:session): session opened for user root(uid=0) by devuqaab(uid=0)
+2026-08-06T21:45:42.119406+05:30 devuqaab-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+2026-08-06T21:45:42.154150+05:30 devuqaab-VirtualBox sudo:     root : TTY=pts/1 ; PWD=/home/devuqaab/devops_devuqaab/gitlab ; USER=root ; COMMAND=/usr/local/bin/gitlab-runner start
+2026-08-06T21:45:42.154306+05:30 devuqaab-VirtualBox sudo: pam_unix(sudo:session): session opened for user root(uid=0) by devuqaab(uid=0)
+2026-08-06T21:45:42.475007+05:30 devuqaab-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+2026-08-06T21:46:43.178724+05:30 devuqaab-VirtualBox pkexec: pam_unix(polkit-1:session): session opened for user root(uid=0) by devuqaab(uid=1000)
+2026-08-06T21:46:43.183273+05:30 devuqaab-VirtualBox pkexec[12650]: devuqaab: Executing command [USER=root] [TTY=unknown] [CWD=/home/devuqaab] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+2026-08-06T21:55:01.363395+05:30 devuqaab-VirtualBox CRON[12897]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-08-06T21:55:01.378871+05:30 devuqaab-VirtualBox CRON[12897]: pam_unix(cron:session): session closed for user root
+2026-08-06T22:05:01.978843+05:30 devuqaab-VirtualBox CRON[13281]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-08-06T22:05:01.988933+05:30 devuqaab-VirtualBox CRON[13281]: pam_unix(cron:session): session closed for user root
+2026-08-06T22:09:17.916185+05:30 devuqaab-VirtualBox su[13456]: (to gitlab-runner) root on none
+2026-08-06T22:09:17.920363+05:30 devuqaab-VirtualBox su[13456]: pam_unix(su:session): session opened for user gitlab-runner(uid=1007) by (uid=0)
+2026-08-06T22:09:18.123134+05:30 devuqaab-VirtualBox (systemd): pam_unix(systemd-user:session): session opened for user gitlab-runner(uid=1007) by gitlab-runner(uid=0)
+2026-08-06T22:09:19.095009+05:30 devuqaab-VirtualBox su[13456]: pam_unix(su:session): session closed for user gitlab-runner
+2026-08-06T22:15:01.160042+05:30 devuqaab-VirtualBox CRON[13915]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-08-06T22:15:01.170552+05:30 devuqaab-VirtualBox CRON[13915]: pam_unix(cron:session): session closed for user root
+2026-08-06T22:17:01.184744+05:30 devuqaab-VirtualBox CRON[13981]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-08-06T22:17:01.195940+05:30 devuqaab-VirtualBox CRON[13981]: pam_unix(cron:session): session closed for user root
+2026-08-06T22:18:03.746806+05:30 devuqaab-VirtualBox sudo:     root : TTY=pts/1 ; PWD=/home/devuqaab/devops_devuqaab/gitlab ; USER=gitlab-runner ; COMMAND=/usr/bin/bash --login
+2026-08-06T22:18:03.756976+05:30 devuqaab-VirtualBox sudo: pam_unix(sudo:session): session opened for user gitlab-runner(uid=1007) by devuqaab(uid=0)
+2026-08-06T22:22:56.740918+05:30 devuqaab-VirtualBox sudo: pam_unix(sudo:auth): authentication failure; logname=devuqaab uid=1007 euid=0 tty=/dev/pts/2 ruser=gitlab-runner rhost=  user=gitlab-runner
+2026-08-06T22:23:26.518893+05:30 devuqaab-VirtualBox sudo: gitlab-runner : user NOT in sudoers ; TTY=pts/2 ; PWD=/home/devuqaab/devops_devuqaab/gitlab ; USER=root ; COMMAND=/usr/bin/su
+2026-08-06T22:25:01.231528+05:30 devuqaab-VirtualBox CRON[14263]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-08-06T22:25:01.241722+05:30 devuqaab-VirtualBox CRON[14263]: pam_unix(cron:session): session closed for user root
+2026-08-06T22:25:36.276894+05:30 devuqaab-VirtualBox su: pam_unix(su:auth): authentication failure; logname=devuqaab uid=1007 euid=0 tty=/dev/pts/2 ruser=gitlab-runner rhost=  user=root
+2026-08-06T22:25:38.215603+05:30 devuqaab-VirtualBox su[14277]: FAILED SU (to root) gitlab-runner on pts/2
+2026-08-06T22:30:01.257634+05:30 devuqaab-VirtualBox CRON[14415]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-08-06T22:30:01.265643+05:30 devuqaab-VirtualBox CRON[14415]: pam_unix(cron:session): session closed for user root
+2026-08-06T22:31:53.563163+05:30 devuqaab-VirtualBox sudo: pam_unix(sudo:session): session closed for user gitlab-runner
+2026-08-06T22:31:53.571531+05:30 devuqaab-VirtualBox su[11712]: pam_unix(su:session): session closed for user root
+2026-08-06T22:31:53.576346+05:30 devuqaab-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+2026-08-06T22:34:47.317706+05:30 devuqaab-VirtualBox su[14661]: (to gitlab-runner) root on none
+2026-08-06T22:34:47.323576+05:30 devuqaab-VirtualBox su[14661]: pam_unix(su:session): session opened for user gitlab-runner(uid=1007) by (uid=0)
+2026-08-06T22:34:47.505735+05:30 devuqaab-VirtualBox (systemd): pam_unix(systemd-user:session): session opened for user gitlab-runner(uid=1007) by gitlab-runner(uid=0)
+2026-08-06T22:34:48.581958+05:30 devuqaab-VirtualBox su[14661]: pam_unix(su:session): session closed for user gitlab-runner
+2026-08-06T22:34:58.923821+05:30 devuqaab-VirtualBox (sd-pam): pam_unix(systemd-user:session): session closed for user gitlab-runner
+2026-08-06T22:35:01.280953+05:30 devuqaab-VirtualBox CRON[14883]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-08-06T22:35:01.293473+05:30 devuqaab-VirtualBox CRON[14883]: pam_unix(cron:session): session closed for user root
+2026-08-06T22:45:01.332083+05:30 devuqaab-VirtualBox CRON[15480]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-08-06T22:45:01.342346+05:30 devuqaab-VirtualBox CRON[15480]: pam_unix(cron:session): session closed for user root
+2026-08-06T22:55:01.379639+05:30 devuqaab-VirtualBox CRON[15745]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-08-06T22:55:01.387928+05:30 devuqaab-VirtualBox CRON[15745]: pam_unix(cron:session): session closed for user root
+2026-08-06T23:05:01.473136+05:30 devuqaab-VirtualBox CRON[16004]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-08-06T23:05:01.484007+05:30 devuqaab-VirtualBox CRON[16004]: pam_unix(cron:session): session closed for user root
+2026-08-06T23:15:01.504954+05:30 devuqaab-VirtualBox CRON[16273]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-08-06T23:15:01.513729+05:30 devuqaab-VirtualBox CRON[16273]: pam_unix(cron:session): session closed for user root
+2026-08-06T23:17:01.539530+05:30 devuqaab-VirtualBox CRON[16323]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-08-06T23:17:01.553038+05:30 devuqaab-VirtualBox CRON[16323]: pam_unix(cron:session): session closed for user root
+2026-08-06T23:21:10.520009+05:30 devuqaab-VirtualBox sudo: devuqaab : TTY=pts/3 ; PWD=/home/devuqaab/devops_devuqaab/gitlab/first-repo ; USER=root ; COMMAND=/usr/bin/apt update
+2026-08-06T23:21:10.530097+05:30 devuqaab-VirtualBox sudo: pam_unix(sudo:session): session opened for user root(uid=0) by devuqaab(uid=1000)
+2026-08-06T23:21:16.615035+05:30 devuqaab-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+2026-08-06T23:22:41.575683+05:30 devuqaab-VirtualBox sudo: devuqaab : TTY=pts/3 ; PWD=/home/devuqaab/devops_devuqaab/gitlab/first-repo ; USER=root ; COMMAND=/usr/bin/apt update -y
+2026-08-06T23:22:41.578132+05:30 devuqaab-VirtualBox sudo: pam_unix(sudo:session): session opened for user root(uid=0) by devuqaab(uid=1000)
+2026-08-06T23:22:43.094759+05:30 devuqaab-VirtualBox pkexec: pam_unix(polkit-1:session): session opened for user root(uid=0) by devuqaab(uid=1000)
+2026-08-06T23:22:43.098696+05:30 devuqaab-VirtualBox pkexec[16969]: devuqaab: Executing command [USER=root] [TTY=unknown] [CWD=/home/devuqaab] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+2026-08-06T23:22:46.880187+05:30 devuqaab-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+2026-08-06T23:23:32.563132+05:30 devuqaab-VirtualBox sudo: devuqaab : TTY=pts/0 ; PWD=/home/devuqaab ; USER=root ; COMMAND=/usr/bin/apt update
+2026-08-06T23:23:32.567152+05:30 devuqaab-VirtualBox sudo: pam_unix(sudo:session): session opened for user root(uid=0) by devuqaab(uid=1000)
+2026-08-06T23:23:36.187050+05:30 devuqaab-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+2026-08-06T23:23:57.060175+05:30 devuqaab-VirtualBox sudo: devuqaab : TTY=pts/0 ; PWD=/home/devuqaab ; USER=root ; COMMAND=/usr/bin/apt install docker
+2026-08-06T23:23:57.063419+05:30 devuqaab-VirtualBox sudo: pam_unix(sudo:session): session opened for user root(uid=0) by devuqaab(uid=1000)
+2026-08-06T23:23:57.809896+05:30 devuqaab-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+                                                                                                                                                                                                                                                                    2026-08-07T10:12:02.483827+05:30 devuqaab-VirtualBox systemd-logind[1142]: New seat seat0.
+2026-08-07T10:12:02.483929+05:30 devuqaab-VirtualBox systemd-logind[1142]: Watching system buttons on /dev/input/event0 (Power Button)
+2026-08-07T10:12:02.483944+05:30 devuqaab-VirtualBox systemd-logind[1142]: Watching system buttons on /dev/input/event1 (Sleep Button)
+2026-08-07T10:12:02.483949+05:30 devuqaab-VirtualBox systemd-logind[1142]: Watching system buttons on /dev/input/event2 (AT Translated Set 2 keyboard)
+2026-08-07T10:12:02.935914+05:30 devuqaab-VirtualBox polkitd[1102]: Loading rules from directory /etc/polkit-1/rules.d
+2026-08-07T10:12:02.936063+05:30 devuqaab-VirtualBox polkitd[1102]: Loading rules from directory /usr/share/polkit-1/rules.d
+2026-08-07T10:12:03.170307+05:30 devuqaab-VirtualBox polkitd[1102]: Finished loading, compiling and executing 16 rules
+2026-08-07T10:12:03.170738+05:30 devuqaab-VirtualBox polkitd[1102]: Acquired the name org.freedesktop.PolicyKit1 on the system bus
+2026-08-07T10:12:11.254572+05:30 devuqaab-VirtualBox gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session opened for user gdm(uid=120) by (uid=0)
+2026-08-07T10:12:11.312587+05:30 devuqaab-VirtualBox systemd-logind[1142]: New session c1 of user gdm.
+2026-08-07T10:12:11.645051+05:30 devuqaab-VirtualBox (systemd): pam_unix(systemd-user:session): session opened for user gdm(uid=120) by gdm(uid=0)
+2026-08-07T10:12:31.446987+05:30 devuqaab-VirtualBox polkitd[1102]: Registered Authentication Agent for unix-session:c1 (system bus name :1.45 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+2026-08-07T10:13:20.865065+05:30 devuqaab-VirtualBox gdm-password]: gkr-pam: unable to locate daemon control file
+2026-08-07T10:13:20.865943+05:30 devuqaab-VirtualBox gdm-password]: gkr-pam: stashed password to try later in open session
+2026-08-07T10:13:20.922508+05:30 devuqaab-VirtualBox gdm-password]: pam_unix(gdm-password:session): session opened for user devuqaab(uid=1000) by devuqaab(uid=0)
+2026-08-07T10:13:20.973339+05:30 devuqaab-VirtualBox systemd-logind[1142]: New session 2 of user devuqaab.
+2026-08-07T10:13:21.087829+05:30 devuqaab-VirtualBox (systemd): pam_unix(systemd-user:session): session opened for user devuqaab(uid=1000) by devuqaab(uid=0)
+2026-08-07T10:13:22.372120+05:30 devuqaab-VirtualBox gdm-password]: gkr-pam: unlocked login keyring
+2026-08-07T10:13:24.118566+05:30 devuqaab-VirtualBox gnome-keyring-daemon[2537]: The Secret Service was already initialized
+2026-08-07T10:13:24.121270+05:30 devuqaab-VirtualBox gnome-keyring-daemon[2746]: discover_other_daemon: 1
+2026-08-07T10:13:24.132108+05:30 devuqaab-VirtualBox gnome-keyring-daemon[2747]: discover_other_daemon: 1
+2026-08-07T10:13:24.132297+05:30 devuqaab-VirtualBox gnome-keyring-daemon[2537]: The PKCS#11 component was already initialized
+2026-08-07T10:13:24.132957+05:30 devuqaab-VirtualBox gnome-keyring-daemon[2749]: discover_other_daemon: 1
+2026-08-07T10:13:32.441341+05:30 devuqaab-VirtualBox polkitd[1102]: Registered Authentication Agent for unix-session:2 (system bus name :1.85 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+2026-08-07T10:13:35.790623+05:30 devuqaab-VirtualBox gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session closed for user gdm
+2026-08-07T10:13:35.900637+05:30 devuqaab-VirtualBox systemd-logind[1142]: Session c1 logged out. Waiting for processes to exit.
+2026-08-07T10:13:35.981782+05:30 devuqaab-VirtualBox polkitd[1102]: Unregistered Authentication Agent for unix-session:c1 (system bus name :1.45, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+2026-08-07T10:13:36.073737+05:30 devuqaab-VirtualBox systemd-logind[1142]: Removed session c1.
+2026-08-07T10:14:33.677824+05:30 devuqaab-VirtualBox pkexec: pam_unix(polkit-1:session): session opened for user root(uid=0) by devuqaab(uid=1000)
+2026-08-07T10:14:33.687596+05:30 devuqaab-VirtualBox pkexec[3787]: devuqaab: Executing command [USER=root] [TTY=unknown] [CWD=/home/devuqaab] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+2026-08-07T10:15:01.137114+05:30 devuqaab-VirtualBox CRON[3805]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-08-07T10:15:01.156466+05:30 devuqaab-VirtualBox CRON[3805]: pam_unix(cron:session): session closed for user root
+2026-08-07T10:17:01.183963+05:30 devuqaab-VirtualBox CRON[3851]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-08-07T10:17:01.221109+05:30 devuqaab-VirtualBox CRON[3851]: pam_unix(cron:session): session closed for user root
+2026-08-07T10:24:18.346586+05:30 devuqaab-VirtualBox sudo: pam_unix(sudo:auth): authentication failure; logname=devuqaab uid=1000 euid=0 tty=/dev/pts/0 ruser=devuqaab rhost=  user=devuqaab
+2026-08-07T10:24:32.151657+05:30 devuqaab-VirtualBox sudo: devuqaab : TTY=pts/0 ; PWD=/home/devuqaab ; USER=root ; COMMAND=/usr/bin/apt update -y
+2026-08-07T10:24:32.159553+05:30 devuqaab-VirtualBox sudo: pam_unix(sudo:session): session opened for user root(uid=0) by devuqaab(uid=1000)
+2026-08-07T10:24:51.952565+05:30 devuqaab-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+2026-08-07T10:25:01.396158+05:30 devuqaab-VirtualBox CRON[5647]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-08-07T10:25:01.418215+05:30 devuqaab-VirtualBox CRON[5647]: pam_unix(cron:session): session closed for user root
+2026-08-07T10:26:30.447892+05:30 devuqaab-VirtualBox pkexec: pam_unix(polkit-1:session): session opened for user root(uid=0) by devuqaab(uid=1000)
+2026-08-07T10:26:30.451307+05:30 devuqaab-VirtualBox pkexec[5684]: devuqaab: Executing command [USER=root] [TTY=unknown] [CWD=/home/devuqaab] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+2026-08-07T10:29:04.563928+05:30 devuqaab-VirtualBox sudo: devuqaab : TTY=pts/0 ; PWD=/home/devuqaab ; USER=root ; COMMAND=/usr/bin/apt install docker
+2026-08-07T10:29:04.589938+05:30 devuqaab-VirtualBox sudo: pam_unix(sudo:session): session opened for user root(uid=0) by devuqaab(uid=1000)
+2026-08-07T10:29:05.241574+05:30 devuqaab-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+2026-08-07T10:30:01.444232+05:30 devuqaab-VirtualBox CRON[5785]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-08-07T10:30:01.451978+05:30 devuqaab-VirtualBox CRON[5785]: pam_unix(cron:session): session closed for user root
+2026-08-07T10:35:01.470172+05:30 devuqaab-VirtualBox CRON[5905]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-08-07T10:35:01.480217+05:30 devuqaab-VirtualBox CRON[5905]: pam_unix(cron:session): session closed for user root
+2026-08-07T10:45:01.564735+05:30 devuqaab-VirtualBox CRON[6115]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-08-07T10:45:01.590867+05:30 devuqaab-VirtualBox CRON[6115]: pam_unix(cron:session): session closed for user root
+2026-08-07T10:45:38.581017+05:30 devuqaab-VirtualBox dbus-daemon[1037]: [system] Failed to activate service 'org.bluez': timed out (service_start_timeout=25000ms)
+2026-08-07T10:47:31.706259+05:30 devuqaab-VirtualBox sudo: devuqaab : TTY=pts/0 ; PWD=/home/devuqaab/devops_devuqaab/gitlab/first-repo ; USER=root ; COMMAND=/usr/bin/apt install docker.io
+2026-08-07T10:47:31.731709+05:30 devuqaab-VirtualBox sudo: pam_unix(sudo:session): session opened for user root(uid=0) by devuqaab(uid=1000)
+2026-08-07T10:48:07.438569+05:30 devuqaab-VirtualBox groupadd[6740]: group added to /etc/group: name=docker, GID=126
+2026-08-07T10:48:07.472596+05:30 devuqaab-VirtualBox groupadd[6740]: group added to /etc/gshadow: name=docker
+2026-08-07T10:48:07.495484+05:30 devuqaab-VirtualBox groupadd[6740]: new group: name=docker, GID=126
+2026-08-07T10:48:20.576020+05:30 devuqaab-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+2026-08-07T10:50:30.674565+05:30 devuqaab-VirtualBox pkexec: pam_unix(polkit-1:session): session opened for user root(uid=0) by devuqaab(uid=1000)
+2026-08-07T10:50:30.684966+05:30 devuqaab-VirtualBox pkexec[7120]: devuqaab: Executing command [USER=root] [TTY=unknown] [CWD=/home/devuqaab] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+2026-08-07T10:51:02.182531+05:30 devuqaab-VirtualBox sudo: devuqaab : TTY=pts/0 ; PWD=/home/devuqaab/devops_devuqaab/gitlab/first-repo ; USER=root ; COMMAND=/usr/bin/apt update
+2026-08-07T10:51:02.188647+05:30 devuqaab-VirtualBox sudo: pam_unix(sudo:session): session opened for user root(uid=0) by devuqaab(uid=1000)
+2026-08-07T10:51:09.026626+05:30 devuqaab-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+2026-08-07T10:53:30.826924+05:30 devuqaab-VirtualBox pkexec: pam_unix(polkit-1:session): session opened for user root(uid=0) by devuqaab(uid=1000)
+2026-08-07T10:53:30.853348+05:30 devuqaab-VirtualBox pkexec[7546]: devuqaab: Executing command [USER=root] [TTY=unknown] [CWD=/home/devuqaab] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+2026-08-07T10:53:37.757779+05:30 devuqaab-VirtualBox sudo: devuqaab : TTY=pts/0 ; PWD=/home/devuqaab/devops_devuqaab/gitlab/first-repo ; USER=root ; COMMAND=/usr/bin/apt upgrade
+2026-08-07T10:53:37.760693+05:30 devuqaab-VirtualBox sudo: pam_unix(sudo:session): session opened for user root(uid=0) by devuqaab(uid=1000)
+2026-08-07T10:55:01.678562+05:30 devuqaab-VirtualBox CRON[8048]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-08-07T10:55:01.775103+05:30 devuqaab-VirtualBox CRON[8048]: pam_unix(cron:session): session closed for user root
+2026-08-07T10:55:03.542810+05:30 devuqaab-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+2026-08-07T11:05:01.850010+05:30 devuqaab-VirtualBox CRON[8441]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-08-07T11:05:01.861005+05:30 devuqaab-VirtualBox CRON[8441]: pam_unix(cron:session): session closed for user root
+2026-08-07T11:15:01.014103+05:30 devuqaab-VirtualBox CRON[9031]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-08-07T11:15:01.026885+05:30 devuqaab-VirtualBox CRON[9031]: pam_unix(cron:session): session closed for user root
+2026-08-07T11:17:01.062263+05:30 devuqaab-VirtualBox CRON[9069]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-08-07T11:17:01.095005+05:30 devuqaab-VirtualBox CRON[9069]: pam_unix(cron:session): session closed for user root
+2026-08-07T11:22:40.429675+05:30 devuqaab-VirtualBox gdm-password]: gkr-pam: unlocked login keyring
+2026-08-07T11:25:01.149680+05:30 devuqaab-VirtualBox CRON[9350]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-08-07T11:25:01.160427+05:30 devuqaab-VirtualBox CRON[9350]: pam_unix(cron:session): session closed for user root
+2026-08-07T11:30:01.177442+05:30 devuqaab-VirtualBox CRON[9612]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-08-07T11:30:01.184638+05:30 devuqaab-VirtualBox CRON[9612]: pam_unix(cron:session): session closed for user root
+2026-08-07T11:30:33.507973+05:30 devuqaab-VirtualBox sudo: devuqaab : TTY=pts/0 ; PWD=/home/devuqaab/devops_devuqaab/gitlab/first-repo ; USER=root ; COMMAND=/usr/bin/su
+2026-08-07T11:30:33.529223+05:30 devuqaab-VirtualBox sudo: pam_unix(sudo:session): session opened for user root(uid=0) by devuqaab(uid=1000)
+2026-08-07T11:30:33.541591+05:30 devuqaab-VirtualBox su[9627]: (to root) root on pts/1
+2026-08-07T11:30:33.542947+05:30 devuqaab-VirtualBox su[9627]: pam_unix(su:session): session opened for user root(uid=0) by devuqaab(uid=0)
+2026-08-07T11:35:01.205993+05:30 devuqaab-VirtualBox CRON[9757]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-08-07T11:35:01.219098+05:30 devuqaab-VirtualBox CRON[9757]: pam_unix(cron:session): session closed for user root
+2026-08-07T11:45:01.375240+05:30 devuqaab-VirtualBox CRON[10146]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-08-07T11:45:01.387693+05:30 devuqaab-VirtualBox CRON[10146]: pam_unix(cron:session): session closed for user root
+2026-08-07T11:55:01.522971+05:30 devuqaab-VirtualBox CRON[10344]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-08-07T11:55:01.533677+05:30 devuqaab-VirtualBox CRON[10344]: pam_unix(cron:session): session closed for user root
+2026-08-07T12:05:01.757726+05:30 devuqaab-VirtualBox CRON[10646]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-08-07T12:05:01.781990+05:30 devuqaab-VirtualBox CRON[10646]: pam_unix(cron:session): session closed for user root
+2026-08-07T12:14:22.835052+05:30 devuqaab-VirtualBox sudo:     root : TTY=pts/1 ; PWD=/home/devuqaab/devops_devuqaab/gitlab/first-repo ; USER=root ; COMMAND=/usr/bin/apt-get install docker.io docker-compose-v2
+2026-08-07T12:14:22.835430+05:30 devuqaab-VirtualBox sudo: pam_unix(sudo:session): session opened for user root(uid=0) by devuqaab(uid=0)
+2026-08-07T12:14:38.443443+05:30 devuqaab-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+2026-08-07T12:15:01.946471+05:30 devuqaab-VirtualBox CRON[11252]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-08-07T12:15:01.969689+05:30 devuqaab-VirtualBox CRON[11252]: pam_unix(cron:session): session closed for user root
+2026-08-07T12:17:02.009018+05:30 devuqaab-VirtualBox CRON[11302]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-08-07T12:17:02.024890+05:30 devuqaab-VirtualBox CRON[11302]: pam_unix(cron:session): session closed for user root
+2026-08-07T12:20:31.102921+05:30 devuqaab-VirtualBox gdm-password]: gkr-pam: unlocked login keyring
+2026-08-07T17:29:20.723831+05:30 devuqaab-VirtualBox systemd-logind[1130]: New seat seat0.
+2026-08-07T17:29:20.892038+05:30 devuqaab-VirtualBox systemd-logind[1130]: Watching system buttons on /dev/input/event0 (Power Button)
+2026-08-07T17:29:20.892166+05:30 devuqaab-VirtualBox systemd-logind[1130]: Watching system buttons on /dev/input/event1 (Sleep Button)
+2026-08-07T17:29:20.892238+05:30 devuqaab-VirtualBox systemd-logind[1130]: Watching system buttons on /dev/input/event2 (AT Translated Set 2 keyboard)
+2026-08-07T17:29:21.455373+05:30 devuqaab-VirtualBox polkitd[1120]: Loading rules from directory /etc/polkit-1/rules.d
+2026-08-07T17:29:21.508565+05:30 devuqaab-VirtualBox polkitd[1120]: Loading rules from directory /usr/share/polkit-1/rules.d
+2026-08-07T17:29:21.888754+05:30 devuqaab-VirtualBox polkitd[1120]: Finished loading, compiling and executing 16 rules
+2026-08-07T17:29:21.912066+05:30 devuqaab-VirtualBox polkitd[1120]: Acquired the name org.freedesktop.PolicyKit1 on the system bus
+2026-08-07T17:29:29.953361+05:30 devuqaab-VirtualBox gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session opened for user gdm(uid=120) by (uid=0)
+2026-08-07T17:29:30.254039+05:30 devuqaab-VirtualBox systemd-logind[1130]: New session c1 of user gdm.
+2026-08-07T17:29:30.432394+05:30 devuqaab-VirtualBox (systemd): pam_unix(systemd-user:session): session opened for user gdm(uid=120) by gdm(uid=0)
+2026-08-07T17:29:52.871348+05:30 devuqaab-VirtualBox polkitd[1120]: Registered Authentication Agent for unix-session:c1 (system bus name :1.46 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+2026-08-07T17:30:04.814566+05:30 devuqaab-VirtualBox CRON[2643]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-08-07T17:30:04.819625+05:30 devuqaab-VirtualBox CRON[2643]: pam_unix(cron:session): session closed for user root
+2026-08-07T17:30:06.776669+05:30 devuqaab-VirtualBox gdm-password]: gkr-pam: unable to locate daemon control file
+2026-08-07T17:30:06.776917+05:30 devuqaab-VirtualBox gdm-password]: gkr-pam: stashed password to try later in open session
+2026-08-07T17:30:06.825983+05:30 devuqaab-VirtualBox gdm-password]: pam_unix(gdm-password:session): session opened for user devuqaab(uid=1000) by devuqaab(uid=0)
+2026-08-07T17:30:06.869272+05:30 devuqaab-VirtualBox systemd-logind[1130]: New session 3 of user devuqaab.
+2026-08-07T17:30:07.013505+05:30 devuqaab-VirtualBox (systemd): pam_unix(systemd-user:session): session opened for user devuqaab(uid=1000) by devuqaab(uid=0)
+2026-08-07T17:30:08.310285+05:30 devuqaab-VirtualBox gdm-password]: gkr-pam: unlocked login keyring
+2026-08-07T17:30:09.731031+05:30 devuqaab-VirtualBox gnome-keyring-daemon[2679]: The Secret Service was already initialized
+2026-08-07T17:30:09.734589+05:30 devuqaab-VirtualBox gnome-keyring-daemon[2885]: discover_other_daemon: 1
+2026-08-07T17:30:09.768734+05:30 devuqaab-VirtualBox gnome-keyring-daemon[2890]: discover_other_daemon: 1
+2026-08-07T17:30:09.783416+05:30 devuqaab-VirtualBox gnome-keyring-daemon[2679]: The PKCS#11 component was already initialized
+2026-08-07T17:30:09.785679+05:30 devuqaab-VirtualBox gnome-keyring-daemon[2897]: discover_other_daemon: 1
+2026-08-07T17:30:16.853165+05:30 devuqaab-VirtualBox polkitd[1120]: Registered Authentication Agent for unix-session:3 (system bus name :1.89 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+2026-08-07T17:30:22.410432+05:30 devuqaab-VirtualBox gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session closed for user gdm
+2026-08-07T17:30:22.548420+05:30 devuqaab-VirtualBox polkitd[1120]: Unregistered Authentication Agent for unix-session:c1 (system bus name :1.46, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+2026-08-07T17:30:22.567040+05:30 devuqaab-VirtualBox systemd-logind[1130]: Session c1 logged out. Waiting for processes to exit.
+2026-08-07T17:30:22.586073+05:30 devuqaab-VirtualBox systemd-logind[1130]: Removed session c1.
+2026-08-07T17:33:10.759436+05:30 devuqaab-VirtualBox dbus-daemon[1113]: [system] Failed to activate service 'org.bluez': timed out (service_start_timeout=25000ms)
+2026-08-07T17:35:01.227295+05:30 devuqaab-VirtualBox CRON[5363]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-08-07T17:35:01.256056+05:30 devuqaab-VirtualBox CRON[5363]: pam_unix(cron:session): session closed for user root
+2026-08-07T17:45:01.289043+05:30 devuqaab-VirtualBox CRON[5770]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-08-07T17:45:01.298819+05:30 devuqaab-VirtualBox CRON[5770]: pam_unix(cron:session): session closed for user root
+2026-08-07T17:55:01.323571+05:30 devuqaab-VirtualBox CRON[6155]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-08-07T17:55:01.333295+05:30 devuqaab-VirtualBox CRON[6155]: pam_unix(cron:session): session closed for user root
+2026-08-07T17:58:25.128038+05:30 devuqaab-VirtualBox sudo: devuqaab : TTY=pts/0 ; PWD=/home/devuqaab/devops_devuqaab/day-26 ; USER=root ; COMMAND=/usr/bin/apt update
+2026-08-07T17:58:25.135550+05:30 devuqaab-VirtualBox sudo: pam_unix(sudo:session): session opened for user root(uid=0) by devuqaab(uid=1000)
+2026-08-07T17:58:39.409108+05:30 devuqaab-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+2026-08-07T17:59:04.246497+05:30 devuqaab-VirtualBox sudo: devuqaab : TTY=pts/0 ; PWD=/home/devuqaab/devops_devuqaab/day-26 ; USER=root ; COMMAND=/usr/bin/apt-get install gh -y
+2026-08-07T17:59:04.248252+05:30 devuqaab-VirtualBox sudo: pam_unix(sudo:session): session opened for user root(uid=0) by devuqaab(uid=1000)
+2026-08-07T17:59:05.016751+05:30 devuqaab-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+2026-08-07T18:05:01.397738+05:30 devuqaab-VirtualBox CRON[7423]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-08-07T18:05:01.409503+05:30 devuqaab-VirtualBox CRON[7423]: pam_unix(cron:session): session closed for user root
+2026-08-07T18:15:01.654504+05:30 devuqaab-VirtualBox CRON[9883]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-08-07T18:15:01.665582+05:30 devuqaab-VirtualBox CRON[9883]: pam_unix(cron:session): session closed for user root
+2026-08-07T18:17:01.679116+05:30 devuqaab-VirtualBox CRON[9921]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-08-07T18:17:01.700372+05:30 devuqaab-VirtualBox CRON[9921]: pam_unix(cron:session): session closed for user root
+2026-08-07T18:20:12.977700+05:30 devuqaab-VirtualBox gdm-password]: gkr-pam: unlocked login keyring
+2026-08-07T18:25:01.386771+05:30 devuqaab-VirtualBox CRON[10236]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-08-07T18:25:01.400029+05:30 devuqaab-VirtualBox CRON[10236]: pam_unix(cron:session): session closed for user root
+2026-08-07T18:30:01.414525+05:30 devuqaab-VirtualBox CRON[10389]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-08-07T18:30:01.435440+05:30 devuqaab-VirtualBox CRON[10389]: pam_unix(cron:session): session closed for user root
+2026-08-07T18:35:01.453659+05:30 devuqaab-VirtualBox CRON[10519]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-08-07T18:35:01.463009+05:30 devuqaab-VirtualBox CRON[10519]: pam_unix(cron:session): session closed for user root
+2026-08-07T18:42:19.031222+05:30 devuqaab-VirtualBox gdm-password]: gkr-pam: unlocked login keyring
+2026-08-07T18:45:01.796172+05:30 devuqaab-VirtualBox CRON[10838]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-08-07T18:45:01.810987+05:30 devuqaab-VirtualBox CRON[10838]: pam_unix(cron:session): session closed for user root
+2026-08-07T18:55:01.829690+05:30 devuqaab-VirtualBox CRON[11048]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-08-07T18:55:01.840071+05:30 devuqaab-VirtualBox CRON[11048]: pam_unix(cron:session): session closed for user root
+2026-08-07T19:05:01.862435+05:30 devuqaab-VirtualBox CRON[11909]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-08-07T19:05:01.871771+05:30 devuqaab-VirtualBox CRON[11909]: pam_unix(cron:session): session closed for user root
+2026-08-07T19:17:58.746947+05:30 devuqaab-VirtualBox CRON[12030]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-08-07T19:17:58.747577+05:30 devuqaab-VirtualBox CRON[12030]: pam_unix(cron:session): session closed for user root
+2026-08-07T19:41:39.007796+05:30 devuqaab-VirtualBox CRON[12072]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-08-07T19:41:39.120204+05:30 devuqaab-VirtualBox CRON[12072]: pam_unix(cron:session): session closed for user root
+2026-08-07T19:42:32.547865+05:30 devuqaab-VirtualBox gdm-password]: gkr-pam: unlocked login keyring
+2026-08-07T19:45:01.128322+05:30 devuqaab-VirtualBox CRON[12271]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-08-07T19:45:01.141504+05:30 devuqaab-VirtualBox CRON[12271]: pam_unix(cron:session): session closed for user root
+2026-08-07T19:55:01.174825+05:30 devuqaab-VirtualBox CRON[12490]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-08-07T19:55:01.187671+05:30 devuqaab-VirtualBox CRON[12490]: pam_unix(cron:session): session closed for user root
+2026-08-07T20:05:01.241073+05:30 devuqaab-VirtualBox CRON[12693]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-08-07T20:05:01.252886+05:30 devuqaab-VirtualBox CRON[12693]: pam_unix(cron:session): session closed for user root
+2026-08-07T20:15:01.280494+05:30 devuqaab-VirtualBox CRON[12896]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-08-07T20:15:01.295065+05:30 devuqaab-VirtualBox CRON[12896]: pam_unix(cron:session): session closed for user root
+2026-08-07T20:17:01.311453+05:30 devuqaab-VirtualBox CRON[12935]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-08-07T20:17:01.332894+05:30 devuqaab-VirtualBox CRON[12935]: pam_unix(cron:session): session closed for user root
+2026-08-07T20:25:01.367016+05:30 devuqaab-VirtualBox CRON[13113]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-08-07T20:25:01.382886+05:30 devuqaab-VirtualBox CRON[13113]: pam_unix(cron:session): session closed for user root
+2026-08-07T20:30:01.285168+05:30 devuqaab-VirtualBox CRON[13188]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-08-07T20:30:01.295651+05:30 devuqaab-VirtualBox CRON[13188]: pam_unix(cron:session): session closed for user root
+2026-08-07T20:36:16.741895+05:30 devuqaab-VirtualBox CRON[13233]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-08-07T20:36:16.742516+05:30 devuqaab-VirtualBox CRON[13233]: pam_unix(cron:session): session closed for user root
+2026-08-07T20:49:56.735510+05:30 devuqaab-VirtualBox gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session opened for user gdm(uid=120) by (uid=0)
+2026-08-07T20:49:56.737487+05:30 devuqaab-VirtualBox (systemd): pam_unix(systemd-user:session): session opened for user gdm(uid=120) by gdm(uid=0)
+2026-08-07T20:49:56.826741+05:30 devuqaab-VirtualBox systemd-logind[13342]: New seat seat0.
+2026-08-07T20:49:56.837771+05:30 devuqaab-VirtualBox systemd-logind[13342]: Watching system buttons on /dev/input/event0 (Power Button)
+2026-08-07T20:49:56.839597+05:30 devuqaab-VirtualBox systemd-logind[13342]: Watching system buttons on /dev/input/event1 (Sleep Button)
+2026-08-07T20:49:56.840195+05:30 devuqaab-VirtualBox systemd-logind[13342]: Watching system buttons on /dev/input/event2 (AT Translated Set 2 keyboard)
+2026-08-07T20:49:56.840837+05:30 devuqaab-VirtualBox systemd-logind[13342]: New session 3 of user devuqaab.
+2026-08-07T20:49:56.844992+05:30 devuqaab-VirtualBox systemd-logind[13342]: New session c1 of user gdm.
+2026-08-07T20:50:02.575082+05:30 devuqaab-VirtualBox polkitd[1120]: Registered Authentication Agent for unix-session:c1 (system bus name :1.213 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+2026-08-07T21:34:29.683801+05:30 devuqaab-VirtualBox CRON[13985]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-08-07T21:34:29.970660+05:30 devuqaab-VirtualBox CRON[13985]: pam_unix(cron:session): session closed for user root
+2026-08-07T21:44:24.455584+05:30 devuqaab-VirtualBox systemd-logind[14309]: New seat seat0.
+2026-08-07T21:44:24.636720+05:30 devuqaab-VirtualBox systemd-logind[14309]: Watching system buttons on /dev/input/event0 (Power Button)
+2026-08-07T21:44:24.636825+05:30 devuqaab-VirtualBox systemd-logind[14309]: Watching system buttons on /dev/input/event1 (Sleep Button)
+2026-08-07T21:44:24.636879+05:30 devuqaab-VirtualBox systemd-logind[14309]: Watching system buttons on /dev/input/event2 (AT Translated Set 2 keyboard)
+2026-08-07T21:44:24.676277+05:30 devuqaab-VirtualBox systemd-logind[14309]: New session c1 of user gdm.
+2026-08-07T21:44:24.681732+05:30 devuqaab-VirtualBox systemd-logind[14309]: New session 3 of user devuqaab.
+2026-08-07T21:44:24.706124+05:30 devuqaab-VirtualBox gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session opened for user gdm(uid=120) by (uid=0)
+2026-08-07T21:44:25.344709+05:30 devuqaab-VirtualBox systemd-logind[14309]: New session c2 of user gdm.
+2026-08-07T21:44:30.296971+05:30 devuqaab-VirtualBox polkitd[1120]: Registered Authentication Agent for unix-session:c2 (system bus name :1.242 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+2026-08-07T21:45:01.706090+05:30 devuqaab-VirtualBox CRON[15191]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-08-07T21:45:01.716877+05:30 devuqaab-VirtualBox CRON[15191]: pam_unix(cron:session): session closed for user root
+2026-08-07T21:45:09.606329+05:30 devuqaab-VirtualBox gdm-password]: gkr-pam: unlocked login keyring
+2026-08-07T21:45:19.954920+05:30 devuqaab-VirtualBox gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session closed for user gdm
+2026-08-07T21:45:20.010810+05:30 devuqaab-VirtualBox systemd-logind[14309]: Session c2 logged out. Waiting for processes to exit.
+2026-08-07T21:45:20.205765+05:30 devuqaab-VirtualBox polkitd[1120]: Unregistered Authentication Agent for unix-session:c2 (system bus name :1.242, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+2026-08-07T21:45:20.214136+05:30 devuqaab-VirtualBox systemd-logind[14309]: Removed session c2.
+2026-08-07T21:49:25.588168+05:30 devuqaab-VirtualBox gdm-password]: pam_unix(gdm-password:session): session closed for user devuqaab
+2026-08-07T21:49:25.765688+05:30 devuqaab-VirtualBox systemd-logind[14309]: Session 3 logged out. Waiting for processes to exit.
+2026-08-07T21:49:27.596367+05:30 devuqaab-VirtualBox polkitd[1120]: Unregistered Authentication Agent for unix-session:3 (system bus name :1.89, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+2026-08-07T21:49:28.196197+05:30 devuqaab-VirtualBox systemd-logind[14309]: Removed session 3.
+2026-08-07T21:49:36.408371+05:30 devuqaab-VirtualBox gdm-password]: gkr-pam: unable to locate daemon control file
+2026-08-07T21:49:36.408494+05:30 devuqaab-VirtualBox gdm-password]: gkr-pam: stashed password to try later in open session
+2026-08-07T21:49:36.468347+05:30 devuqaab-VirtualBox gdm-password]: pam_unix(gdm-password:session): session opened for user devuqaab(uid=1000) by devuqaab(uid=0)
+2026-08-07T21:49:36.474356+05:30 devuqaab-VirtualBox systemd-logind[14309]: New session 30 of user devuqaab.
+2026-08-07T21:49:36.567590+05:30 devuqaab-VirtualBox gdm-password]: gkr-pam: unlocked login keyring
+2026-08-07T21:49:37.121610+05:30 devuqaab-VirtualBox gnome-keyring-daemon[16500]: The Secret Service was already initialized
+2026-08-07T21:49:37.122820+05:30 devuqaab-VirtualBox gnome-keyring-daemon[16624]: discover_other_daemon: 1
+2026-08-07T21:49:37.123124+05:30 devuqaab-VirtualBox gnome-keyring-daemon[16500]: The PKCS#11 component was already initialized
+2026-08-07T21:49:37.123302+05:30 devuqaab-VirtualBox gnome-keyring-daemon[16625]: discover_other_daemon: 1
+2026-08-07T21:49:37.137045+05:30 devuqaab-VirtualBox gnome-keyring-daemon[16626]: discover_other_daemon: 1
+2026-08-07T21:49:41.625867+05:30 devuqaab-VirtualBox polkitd[1120]: Registered Authentication Agent for unix-session:30 (system bus name :1.286 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+2026-08-07T21:49:42.950957+05:30 devuqaab-VirtualBox gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session closed for user gdm
+2026-08-07T21:49:42.980495+05:30 devuqaab-VirtualBox systemd-logind[14309]: Session c1 logged out. Waiting for processes to exit.
+2026-08-07T21:49:43.109817+05:30 devuqaab-VirtualBox polkitd[1120]: Unregistered Authentication Agent for unix-session:c1 (system bus name :1.213, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+2026-08-07T21:49:43.127369+05:30 devuqaab-VirtualBox systemd-logind[14309]: Removed session c1.
+2026-08-07T21:49:56.094004+05:30 devuqaab-VirtualBox (sd-pam): pam_unix(systemd-user:session): session closed for user gdm
+2026-08-07T21:55:01.780530+05:30 devuqaab-VirtualBox CRON[18900]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-08-07T21:55:01.789877+05:30 devuqaab-VirtualBox CRON[18900]: pam_unix(cron:session): session closed for user root
+2026-08-07T22:05:01.853903+05:30 devuqaab-VirtualBox CRON[19479]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-08-07T22:05:01.881006+05:30 devuqaab-VirtualBox CRON[19479]: pam_unix(cron:session): session closed for user root
+2026-08-07T22:15:01.895541+05:30 devuqaab-VirtualBox CRON[20377]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-08-07T22:15:01.904379+05:30 devuqaab-VirtualBox CRON[20377]: pam_unix(cron:session): session closed for user root
+2026-08-07T22:15:46.365140+05:30 devuqaab-VirtualBox sudo: devuqaab : TTY=pts/0 ; PWD=/home/devuqaab/devops_devuqaab/day-26 ; USER=root ; COMMAND=/usr/bin/gh repo delete AlfaizMansoor/github-cli --yes
+2026-08-07T22:15:46.373639+05:30 devuqaab-VirtualBox sudo: pam_unix(sudo:session): session opened for user root(uid=0) by devuqaab(uid=1000)
+2026-08-07T22:15:46.500350+05:30 devuqaab-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+2026-08-07T22:17:01.914219+05:30 devuqaab-VirtualBox CRON[20446]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-08-07T22:17:01.923364+05:30 devuqaab-VirtualBox CRON[20446]: pam_unix(cron:session): session closed for user root
+2026-08-07T22:19:55.607872+05:30 devuqaab-VirtualBox gnome-keyring-daemon[16500]: asked to register item /org/freedesktop/secrets/collection/login/5, but it's already registered
+2026-08-07T22:25:01.939917+05:30 devuqaab-VirtualBox CRON[20906]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-08-07T22:25:01.952754+05:30 devuqaab-VirtualBox CRON[20906]: pam_unix(cron:session): session closed for user root
+2026-08-07T22:30:01.966455+05:30 devuqaab-VirtualBox CRON[21091]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-08-07T22:30:01.973838+05:30 devuqaab-VirtualBox CRON[21091]: pam_unix(cron:session): session closed for user root
+2026-08-07T22:35:01.997308+05:30 devuqaab-VirtualBox CRON[21363]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-08-07T22:35:02.010103+05:30 devuqaab-VirtualBox CRON[21363]: pam_unix(cron:session): session closed for user root
+2026-08-07T22:45:01.025020+05:30 devuqaab-VirtualBox CRON[21966]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-08-07T22:45:01.035986+05:30 devuqaab-VirtualBox CRON[21966]: pam_unix(cron:session): session closed for user root
+2026-08-08T08:36:54.372091+05:30 devuqaab-VirtualBox systemd-logind[1097]: New seat seat0.
+2026-08-08T08:36:54.372096+05:30 devuqaab-VirtualBox systemd-logind[1097]: Watching system buttons on /dev/input/event0 (Power Button)
+2026-08-08T08:36:54.372102+05:30 devuqaab-VirtualBox systemd-logind[1097]: Watching system buttons on /dev/input/event1 (Sleep Button)
+2026-08-08T08:36:54.372107+05:30 devuqaab-VirtualBox systemd-logind[1097]: Watching system buttons on /dev/input/event2 (AT Translated Set 2 keyboard)
+2026-08-08T08:36:54.372124+05:30 devuqaab-VirtualBox polkitd[1087]: Loading rules from directory /etc/polkit-1/rules.d
+2026-08-08T08:36:54.372137+05:30 devuqaab-VirtualBox polkitd[1087]: Loading rules from directory /usr/share/polkit-1/rules.d
+2026-08-08T08:36:54.368278+05:30 devuqaab-VirtualBox polkitd[1087]: Finished loading, compiling and executing 16 rules
+2026-08-08T08:36:54.371028+05:30 devuqaab-VirtualBox polkitd[1087]: Acquired the name org.freedesktop.PolicyKit1 on the system bus
+2026-08-08T08:37:03.198394+05:30 devuqaab-VirtualBox gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session opened for user gdm(uid=120) by (uid=0)
+2026-08-08T08:37:03.377821+05:30 devuqaab-VirtualBox systemd-logind[1097]: New session c1 of user gdm.
+2026-08-08T08:37:03.561849+05:30 devuqaab-VirtualBox (systemd): pam_unix(systemd-user:session): session opened for user gdm(uid=120) by gdm(uid=0)
+2026-08-08T08:37:26.676914+05:30 devuqaab-VirtualBox polkitd[1087]: Registered Authentication Agent for unix-session:c1 (system bus name :1.44 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+2026-08-08T08:37:58.791690+05:30 devuqaab-VirtualBox gdm-password]: gkr-pam: unable to locate daemon control file
+2026-08-08T08:37:58.792306+05:30 devuqaab-VirtualBox gdm-password]: gkr-pam: stashed password to try later in open session
+2026-08-08T08:37:58.846988+05:30 devuqaab-VirtualBox gdm-password]: pam_unix(gdm-password:session): session opened for user devuqaab(uid=1000) by devuqaab(uid=0)
+2026-08-08T08:37:58.878380+05:30 devuqaab-VirtualBox systemd-logind[1097]: New session 2 of user devuqaab.
+2026-08-08T08:37:59.076310+05:30 devuqaab-VirtualBox (systemd): pam_unix(systemd-user:session): session opened for user devuqaab(uid=1000) by devuqaab(uid=0)
+2026-08-08T08:38:00.561878+05:30 devuqaab-VirtualBox gdm-password]: gkr-pam: unlocked login keyring
+2026-08-08T08:38:02.177067+05:30 devuqaab-VirtualBox gnome-keyring-daemon[2781]: The Secret Service was already initialized
+2026-08-08T08:38:02.178878+05:30 devuqaab-VirtualBox gnome-keyring-daemon[2993]: discover_other_daemon: 1
+2026-08-08T08:38:02.233302+05:30 devuqaab-VirtualBox gnome-keyring-daemon[2781]: The PKCS#11 component was already initialized
+2026-08-08T08:38:02.233891+05:30 devuqaab-VirtualBox gnome-keyring-daemon[2996]: discover_other_daemon: 1
+2026-08-08T08:38:02.237208+05:30 devuqaab-VirtualBox gnome-keyring-daemon[2998]: discover_other_daemon: 1
+2026-08-08T08:38:09.435273+05:30 devuqaab-VirtualBox polkitd[1087]: Registered Authentication Agent for unix-session:2 (system bus name :1.87 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+2026-08-08T08:38:11.683606+05:30 devuqaab-VirtualBox gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session closed for user gdm
+2026-08-08T08:38:11.755673+05:30 devuqaab-VirtualBox systemd-logind[1097]: Session c1 logged out. Waiting for processes to exit.
+2026-08-08T08:38:11.887565+05:30 devuqaab-VirtualBox polkitd[1087]: Unregistered Authentication Agent for unix-session:c1 (system bus name :1.44, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+2026-08-08T08:38:11.928113+05:30 devuqaab-VirtualBox systemd-logind[1097]: Removed session c1.
+2026-08-08T08:38:22.311352+05:30 devuqaab-VirtualBox (sd-pam): pam_unix(systemd-user:session): session closed for user gdm
+2026-08-08T08:45:01.578933+05:30 devuqaab-VirtualBox CRON[5258]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-08-08T08:45:01.592488+05:30 devuqaab-VirtualBox CRON[5258]: pam_unix(cron:session): session closed for user root
+2026-08-08T08:55:01.670344+05:30 devuqaab-VirtualBox CRON[5640]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-08-08T08:55:01.689014+05:30 devuqaab-VirtualBox CRON[5640]: pam_unix(cron:session): session closed for user root
+2026-08-08T09:00:34.598919+05:30 devuqaab-VirtualBox dbus-daemon[1065]: [system] Failed to activate service 'org.bluez': timed out (service_start_timeout=25000ms)
+2026-08-08T09:05:01.746047+05:30 devuqaab-VirtualBox CRON[6011]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-08-08T09:05:01.778147+05:30 devuqaab-VirtualBox CRON[6011]: pam_unix(cron:session): session closed for user root
+2026-08-08T09:20:41.384864+05:30 devuqaab-VirtualBox gdm-password]: gkr-pam: unlocked login keyring
+2026-08-08T09:25:01.370665+05:30 devuqaab-VirtualBox CRON[6459]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-08-08T09:25:01.397381+05:30 devuqaab-VirtualBox CRON[6459]: pam_unix(cron:session): session closed for user root
+2026-08-08T09:30:01.417062+05:30 devuqaab-VirtualBox CRON[6844]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-08-08T09:30:01.424231+05:30 devuqaab-VirtualBox CRON[6844]: pam_unix(cron:session): session closed for user root
+2026-08-08T09:33:06.837041+05:30 devuqaab-VirtualBox gnome-keyring-daemon[2781]: asked to register item /org/freedesktop/secrets/collection/login/1, but it's already registered
+2026-08-08T09:33:10.174862+05:30 devuqaab-VirtualBox dbus-daemon[1065]: [system] Failed to activate service 'org.bluez': timed out (service_start_timeout=25000ms)
+2026-08-08T09:35:01.453276+05:30 devuqaab-VirtualBox CRON[7459]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-08-08T09:35:01.467446+05:30 devuqaab-VirtualBox CRON[7459]: pam_unix(cron:session): session closed for user root
+2026-08-08T09:45:01.495468+05:30 devuqaab-VirtualBox CRON[8362]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-08-08T09:45:01.506782+05:30 devuqaab-VirtualBox CRON[8362]: pam_unix(cron:session): session closed for user root
+2026-08-08T09:55:01.545289+05:30 devuqaab-VirtualBox CRON[8726]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-08-08T09:55:01.555899+05:30 devuqaab-VirtualBox CRON[8726]: pam_unix(cron:session): session closed for user root
+2026-08-08T10:00:18.492373+05:30 devuqaab-VirtualBox gdm-password]: gkr-pam: unlocked login keyring
+2026-08-08T10:05:01.922826+05:30 devuqaab-VirtualBox CRON[9112]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-08-08T10:05:01.936978+05:30 devuqaab-VirtualBox CRON[9112]: pam_unix(cron:session): session closed for user root
+2026-08-08T10:25:28.608750+05:30 devuqaab-VirtualBox CRON[9326]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-08-08T10:25:28.609362+05:30 devuqaab-VirtualBox CRON[9326]: pam_unix(cron:session): session closed for user root
+2026-08-08T10:25:40.044116+05:30 devuqaab-VirtualBox gdm-password]: gkr-pam: unlocked login keyring
+2026-08-08T10:30:01.753971+05:30 devuqaab-VirtualBox CRON[9657]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-08-08T10:30:01.760417+05:30 devuqaab-VirtualBox CRON[9657]: pam_unix(cron:session): session closed for user root
+2026-08-08T10:35:01.781308+05:30 devuqaab-VirtualBox CRON[9834]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-08-08T10:35:01.796213+05:30 devuqaab-VirtualBox CRON[9834]: pam_unix(cron:session): session closed for user root
+2026-08-08T10:45:01.820881+05:30 devuqaab-VirtualBox CRON[10244]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-08-08T10:45:01.837583+05:30 devuqaab-VirtualBox CRON[10244]: pam_unix(cron:session): session closed for user root
+2026-08-08T10:55:01.886240+05:30 devuqaab-VirtualBox CRON[10609]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-08-08T10:55:01.897124+05:30 devuqaab-VirtualBox CRON[10609]: pam_unix(cron:session): session closed for user root
+2026-08-08T11:05:01.934276+05:30 devuqaab-VirtualBox CRON[11151]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-08-08T11:05:01.951358+05:30 devuqaab-VirtualBox CRON[11151]: pam_unix(cron:session): session closed for user root
+2026-08-08T11:15:02.008586+05:30 devuqaab-VirtualBox CRON[11528]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-08-08T11:15:02.027687+05:30 devuqaab-VirtualBox CRON[11528]: pam_unix(cron:session): session closed for user root
+2026-08-08T11:17:01.045247+05:30 devuqaab-VirtualBox CRON[12174]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-08-08T11:17:01.067932+05:30 devuqaab-VirtualBox CRON[12174]: pam_unix(cron:session): session closed for user root
+2026-08-08T11:25:01.090962+05:30 devuqaab-VirtualBox CRON[12547]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-08-08T11:25:01.099744+05:30 devuqaab-VirtualBox CRON[12547]: pam_unix(cron:session): session closed for user root
+2026-08-08T11:30:01.114351+05:30 devuqaab-VirtualBox CRON[12786]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-08-08T11:30:01.121336+05:30 devuqaab-VirtualBox CRON[12786]: pam_unix(cron:session): session closed for user root
+2026-08-08T11:35:01.140246+05:30 devuqaab-VirtualBox CRON[12984]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-08-08T11:35:01.152889+05:30 devuqaab-VirtualBox CRON[12984]: pam_unix(cron:session): session closed for user root
+2026-08-08T11:45:01.193433+05:30 devuqaab-VirtualBox CRON[13470]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-08-08T11:45:01.212903+05:30 devuqaab-VirtualBox CRON[13470]: pam_unix(cron:session): session closed for user root
+2026-08-08T11:53:31.145004+05:30 devuqaab-VirtualBox gdm-password]: gkr-pam: unlocked login keyring
+2026-08-08T11:55:01.306319+05:30 devuqaab-VirtualBox CRON[13755]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-08-08T11:55:01.318048+05:30 devuqaab-VirtualBox CRON[13755]: pam_unix(cron:session): session closed for user root
+2026-08-08T12:05:01.338546+05:30 devuqaab-VirtualBox CRON[14317]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-08-08T12:05:01.350931+05:30 devuqaab-VirtualBox CRON[14317]: pam_unix(cron:session): session closed for user root
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        2026-08-08T15:58:35.920227+05:30 devuqaab-VirtualBox systemd-logind[1057]: New seat seat0.
+2026-08-08T15:58:35.920236+05:30 devuqaab-VirtualBox systemd-logind[1057]: Watching system buttons on /dev/input/event0 (Power Button)
+2026-08-08T15:58:35.920243+05:30 devuqaab-VirtualBox systemd-logind[1057]: Watching system buttons on /dev/input/event1 (Sleep Button)
+2026-08-08T15:58:35.920324+05:30 devuqaab-VirtualBox systemd-logind[1057]: Watching system buttons on /dev/input/event2 (AT Translated Set 2 keyboard)
+2026-08-08T15:58:36.118113+05:30 devuqaab-VirtualBox polkitd[1046]: Loading rules from directory /etc/polkit-1/rules.d
+2026-08-08T15:58:36.144643+05:30 devuqaab-VirtualBox polkitd[1046]: Loading rules from directory /usr/share/polkit-1/rules.d
+2026-08-08T15:58:36.370311+05:30 devuqaab-VirtualBox polkitd[1046]: Finished loading, compiling and executing 16 rules
+2026-08-08T15:58:36.378196+05:30 devuqaab-VirtualBox polkitd[1046]: Acquired the name org.freedesktop.PolicyKit1 on the system bus
+2026-08-08T15:58:44.269655+05:30 devuqaab-VirtualBox gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session opened for user gdm(uid=120) by (uid=0)
+2026-08-08T15:58:44.363161+05:30 devuqaab-VirtualBox systemd-logind[1057]: New session c1 of user gdm.
+2026-08-08T15:58:44.553493+05:30 devuqaab-VirtualBox (systemd): pam_unix(systemd-user:session): session opened for user gdm(uid=120) by gdm(uid=0)
+2026-08-08T15:59:02.403266+05:30 devuqaab-VirtualBox polkitd[1046]: Registered Authentication Agent for unix-session:c1 (system bus name :1.44 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+2026-08-08T15:59:21.052069+05:30 devuqaab-VirtualBox gdm-password]: gkr-pam: unable to locate daemon control file
+2026-08-08T15:59:21.052349+05:30 devuqaab-VirtualBox gdm-password]: gkr-pam: stashed password to try later in open session
+2026-08-08T15:59:21.072995+05:30 devuqaab-VirtualBox gdm-password]: pam_unix(gdm-password:session): session opened for user devuqaab(uid=1000) by devuqaab(uid=0)
+2026-08-08T15:59:21.097361+05:30 devuqaab-VirtualBox systemd-logind[1057]: New session 2 of user devuqaab.
+2026-08-08T15:59:21.306629+05:30 devuqaab-VirtualBox (systemd): pam_unix(systemd-user:session): session opened for user devuqaab(uid=1000) by devuqaab(uid=0)
+2026-08-08T15:59:22.878820+05:30 devuqaab-VirtualBox gdm-password]: gkr-pam: unlocked login keyring
+2026-08-08T15:59:24.480789+05:30 devuqaab-VirtualBox gnome-keyring-daemon[2644]: The Secret Service was already initialized
+2026-08-08T15:59:24.485991+05:30 devuqaab-VirtualBox gnome-keyring-daemon[2859]: discover_other_daemon: 1
+2026-08-08T15:59:24.502452+05:30 devuqaab-VirtualBox gnome-keyring-daemon[2644]: The PKCS#11 component was already initialized
+2026-08-08T15:59:24.503387+05:30 devuqaab-VirtualBox gnome-keyring-daemon[2863]: discover_other_daemon: 1
+2026-08-08T15:59:24.523073+05:30 devuqaab-VirtualBox gnome-keyring-daemon[2864]: discover_other_daemon: 1
+2026-08-08T15:59:30.987728+05:30 devuqaab-VirtualBox polkitd[1046]: Registered Authentication Agent for unix-session:2 (system bus name :1.87 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+2026-08-08T15:59:33.598149+05:30 devuqaab-VirtualBox gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session closed for user gdm
+2026-08-08T15:59:33.645313+05:30 devuqaab-VirtualBox systemd-logind[1057]: Session c1 logged out. Waiting for processes to exit.
+2026-08-08T15:59:33.735898+05:30 devuqaab-VirtualBox polkitd[1046]: Unregistered Authentication Agent for unix-session:c1 (system bus name :1.44, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+2026-08-08T15:59:33.755080+05:30 devuqaab-VirtualBox systemd-logind[1057]: Removed session c1.
+2026-08-08T16:05:01.489235+05:30 devuqaab-VirtualBox CRON[5654]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-08-08T16:05:01.503835+05:30 devuqaab-VirtualBox CRON[5654]: pam_unix(cron:session): session closed for user root
+2026-08-08T16:15:01.613512+05:30 devuqaab-VirtualBox CRON[6139]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-08-08T16:15:01.624065+05:30 devuqaab-VirtualBox CRON[6139]: pam_unix(cron:session): session closed for user root
+2026-08-08T16:17:01.641506+05:30 devuqaab-VirtualBox CRON[6187]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-08-08T16:17:01.670032+05:30 devuqaab-VirtualBox CRON[6187]: pam_unix(cron:session): session closed for user root
+2026-08-08T16:18:08.275961+05:30 devuqaab-VirtualBox gnome-keyring-daemon[2644]: asked to register item /org/freedesktop/secrets/collection/login/1, but it's already registered
+2026-08-08T16:18:09.787482+05:30 devuqaab-VirtualBox dbus-daemon[1034]: [system] Failed to activate service 'org.bluez': timed out (service_start_timeout=25000ms)
+2026-08-08T16:25:01.725508+05:30 devuqaab-VirtualBox CRON[6832]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-08-08T16:25:01.737317+05:30 devuqaab-VirtualBox CRON[6832]: pam_unix(cron:session): session closed for user root
+2026-08-08T16:29:47.566275+05:30 devuqaab-VirtualBox dbus-daemon[1034]: [system] Failed to activate service 'org.bluez': timed out (service_start_timeout=25000ms)
+2026-08-08T16:30:01.758990+05:30 devuqaab-VirtualBox CRON[7142]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-08-08T16:30:01.771122+05:30 devuqaab-VirtualBox CRON[7142]: pam_unix(cron:session): session closed for user root
+2026-08-08T16:35:01.784530+05:30 devuqaab-VirtualBox CRON[7350]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-08-08T16:35:01.799125+05:30 devuqaab-VirtualBox CRON[7350]: pam_unix(cron:session): session closed for user root
+2026-08-08T16:45:01.870630+05:30 devuqaab-VirtualBox CRON[7710]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-08-08T16:45:01.886892+05:30 devuqaab-VirtualBox CRON[7710]: pam_unix(cron:session): session closed for user root
+2026-08-08T16:55:01.909879+05:30 devuqaab-VirtualBox CRON[7960]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-08-08T16:55:01.925377+05:30 devuqaab-VirtualBox CRON[7960]: pam_unix(cron:session): session closed for user root
+2026-08-08T17:05:01.954268+05:30 devuqaab-VirtualBox CRON[8259]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-08-08T17:05:01.967749+05:30 devuqaab-VirtualBox CRON[8259]: pam_unix(cron:session): session closed for user root
+2026-08-08T17:15:02.006763+05:30 devuqaab-VirtualBox CRON[8646]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-08-08T17:15:02.024254+05:30 devuqaab-VirtualBox CRON[8646]: pam_unix(cron:session): session closed for user root
+2026-08-08T17:17:01.066660+05:30 devuqaab-VirtualBox CRON[8782]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-08-08T17:17:01.094050+05:30 devuqaab-VirtualBox CRON[8782]: pam_unix(cron:session): session closed for user root
+2026-08-08T17:25:01.131506+05:30 devuqaab-VirtualBox CRON[9474]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-08-08T17:25:01.144713+05:30 devuqaab-VirtualBox CRON[9474]: pam_unix(cron:session): session closed for user root
+2026-08-08T17:30:01.172342+05:30 devuqaab-VirtualBox CRON[9686]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-08-08T17:30:01.179290+05:30 devuqaab-VirtualBox CRON[9686]: pam_unix(cron:session): session closed for user root
+2026-08-08T17:35:01.196366+05:30 devuqaab-VirtualBox CRON[9847]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-08-08T17:35:01.207507+05:30 devuqaab-VirtualBox CRON[9847]: pam_unix(cron:session): session closed for user root
+2026-08-08T17:45:01.244006+05:30 devuqaab-VirtualBox CRON[10111]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-08-08T17:45:01.259542+05:30 devuqaab-VirtualBox CRON[10111]: pam_unix(cron:session): session closed for user root
+2026-08-08T17:55:01.289477+05:30 devuqaab-VirtualBox CRON[10355]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-08-08T17:55:01.304267+05:30 devuqaab-VirtualBox CRON[10355]: pam_unix(cron:session): session closed for user root
+2026-08-08T18:02:00.225050+05:30 devuqaab-VirtualBox gdm-password]: gkr-pam: unlocked login keyring
+2026-08-08T18:05:01.345673+05:30 devuqaab-VirtualBox CRON[10770]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-08-08T18:05:01.370409+05:30 devuqaab-VirtualBox CRON[10770]: pam_unix(cron:session): session closed for user root
+2026-08-08T18:15:01.478503+05:30 devuqaab-VirtualBox CRON[11022]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-08-08T18:15:01.496217+05:30 devuqaab-VirtualBox CRON[11022]: pam_unix(cron:session): session closed for user root
+2026-08-08T18:17:01.511692+05:30 devuqaab-VirtualBox CRON[11074]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-08-08T18:17:01.529574+05:30 devuqaab-VirtualBox CRON[11074]: pam_unix(cron:session): session closed for user root
+2026-08-08T18:25:01.558280+05:30 devuqaab-VirtualBox CRON[11266]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-08-08T18:25:01.575310+05:30 devuqaab-VirtualBox CRON[11266]: pam_unix(cron:session): session closed for user root
+2026-08-08T18:27:16.085619+05:30 devuqaab-VirtualBox gdm-password]: gkr-pam: unlocked login keyring
+2026-08-08T18:30:01.786641+05:30 devuqaab-VirtualBox CRON[11483]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-08-08T18:30:01.793616+05:30 devuqaab-VirtualBox CRON[11483]: pam_unix(cron:session): session closed for user root
+2026-08-08T18:33:41.875305+05:30 devuqaab-VirtualBox gdm-password]: gkr-pam: unlocked login keyring
+2026-08-08T18:35:01.832058+05:30 devuqaab-VirtualBox CRON[11706]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-08-08T18:35:01.846164+05:30 devuqaab-VirtualBox CRON[11706]: pam_unix(cron:session): session closed for user root
+2026-08-08T18:42:50.775546+05:30 devuqaab-VirtualBox sudo: devuqaab : TTY=pts/0 ; PWD=/home/devuqaab/devops_devuqaab/day_20 ; USER=root ; COMMAND=./log_analyzer.sh /var/log/auth.log
+2026-08-08T18:42:50.806593+05:30 devuqaab-VirtualBox sudo: pam_unix(sudo:session): session opened for user root(uid=0) by devuqaab(uid=1000)
+2026-08-08T18:42:50.913974+05:30 devuqaab-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+2026-08-08T18:45:01.999573+05:30 devuqaab-VirtualBox CRON[12347]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-08-08T18:45:02.011941+05:30 devuqaab-VirtualBox CRON[12347]: pam_unix(cron:session): session closed for user root
+2026-08-08T18:55:01.072854+05:30 devuqaab-VirtualBox CRON[13126]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-08-08T18:55:01.094452+05:30 devuqaab-VirtualBox CRON[13126]: pam_unix(cron:session): session closed for user root
