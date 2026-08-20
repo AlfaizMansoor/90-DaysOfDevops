@@ -27,3 +27,45 @@
 ## Run the hello-world container, Read the output carefully — it explains what just happened
 - Hello from Docker!
 This message shows that your installation appears to be working correctly.
+
+# TASK-3 
+
+#### Nginx container
+- bf3ce77a5d0b  car-demo   "/docker-entrypoint.…"   11 hours ago    Up 5 minutes   0.0.0.0:80->80/tcp, [::]:80->80/tcp   car-demo
+- Runs on http://localhost/car.html
+
+#### Ubuntu container in interactive mode
+- `docker run -itd ubuntu bash`
+
+##### In interactive mode
+- `docker run -it ubuntu bash`
+- `root@af9e60a15c59:/#`
+
+## List all running containers
+- `docker ps` - lists all running containers.
+
+## List all containers (including stopped ones)
+- `docker ps -a` - lists all containers running or stopped both.
+
+## Stop and remove a container
+- `docker stop bf3ce77a5d0` - it stops the running container.
+- `docker rm bf3ce77a5d0` - it removes the container.
+
+# TASK-4
+
+## Run a container in detached mode
+- `docker run -d ubuntu:latest` creates a ubuntu image in detached mode.
+- 0c5438f03c3   ubuntu:latest
+
+## Give a container a custom name
+- `docker run -d --name my_ubuntu ubuntu:latest` gives ubuntu image a custom name.
+
+## Map a port from the container to your host
+- `docker run -d -p 8080:80 nginx` it runs nginx on port 8080
+
+## check logs of container
+- `docker logs my_ubuntu` checks the logs of container my_ubuntu
+
+## Run a command inside a running container
+- `docker exec -it my_ubuntu bash` it opens a interactive mode of ubuntu so i can run commands inside a container.
+- `systemctl status nginx`
