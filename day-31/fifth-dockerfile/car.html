@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dream Cars Showcase</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Poppins', sans-serif;
+      background: linear-gradient(to bottom, #0f2027, #203a43, #2c5364);
+      color: #fff;
+      text-align: center;
+    }
+    header {
+      padding: 40px 0 20px;
+    }
+    h1 {
+      font-size: 2.8em;
+      margin-bottom: 10px;
+      letter-spacing: 1px;
+    }
+    p {
+      font-size: 1.1em;
+      color: #dcdcdc;
+    }
+    .gallery {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+      padding: 40px;
+    }
+    .car-card {
+      background: rgba(255, 255, 255, 0.1);
+      border-radius: 10px;
+      width: 280px;
+      padding: 20px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+      transition: transform 0.3s ease;
+    }
+    .car-card:hover {
+      transform: translateY(-8px);
+    }
+    .car-card img {
+      width: 100%;
+      border-radius: 8px;
+    }
+    .car-card h2 {
+      margin: 15px 0 10px;
+      font-size: 1.4em;
+      color: #f9f9f9;
+    }
+    .car-card p {
+      font-size: 0.95em;
+      color: #ccc;
+    }
+    footer {
+      padding: 20px;
+      background: rgba(0,0,0,0.3);
+      font-size: 0.9em;
+      color: #aaa;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Dream Cars Showcase</h1>
+    <p>Experience luxury, speed, and innovation</p>
+  </header>
+
+  <section class="gallery">
+    <div class="car-card">
+      <img src="car1.jpg" alt="Luxury Sports Car">
+      <h2>Luxury Sports Car</h2>
+      <p>Sleek design and blistering speed for the ultimate driving pleasure.</p>
+    </div>
+    <div class="car-card">
+      <img src="car2.jpg" alt="Premium SUV">
+      <h2>Premium SUV</h2>
+      <h6>best condition</h6>
+      <p>Powerful and spacious — perfect for any adventure, on or off the road.</p>
+    </div>
+    <div class="car-card">
+      <img src="car3.jpg" alt="Elegant Sedan">
+      <h2>Elegant Sedan</h2>
+      <p>Combines comfort and sophistication for a smooth, stylish ride.</p>
+    </div>
+    <div class="car-card">
+      <img src="car4.jpg" alt="Electric Future">
+      <h2>Electric Future</h2>
+      <p>Innovative and eco-friendly — driving into the future of mobility.</p>
+    </div>
+  </section>
+
+  <footer>
+    © 2026 Dream Cars Showcase. All rights reserved.
+  </footer>
+</body>
+</html>
+

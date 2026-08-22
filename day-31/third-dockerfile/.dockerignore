@@ -1,0 +1,12 @@
+# Ignore node dependencies
+node_modules
+
+# Ignore Git repo metadata
+.git
+
+# Ignore Markdown docs
+*.md
+
+# Ignore environment files
+.env
+

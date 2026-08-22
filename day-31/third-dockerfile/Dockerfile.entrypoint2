@@ -1,0 +1,12 @@
+# This is my third docker file for testing ENTRYPOINT
+
+FROM ubuntu
+
+WORKDIR /app
+
+RUN apt-get update
+
+COPY . .
+
+ENTRYPOINT ["echo", "ls"]
+

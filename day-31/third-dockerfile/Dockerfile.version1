@@ -1,0 +1,11 @@
+# This docker file is for testing CMD
+
+FROM ubuntu
+
+WORKDIR /app
+
+RUN apt-get update 
+
+COPY . .
+
+CMD ["vim", "Dockerfile.entry"]
