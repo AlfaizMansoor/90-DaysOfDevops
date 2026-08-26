@@ -1,0 +1,37 @@
+# My second Docker Compose file
+
+services: 
+  web:
+    image: wordpress:latest
+    container_name: compose-wordpress
+    ports:
+      - "8080:80"
+    environment:
+      WORDPRESS_DB_HOST: ${WORDPRESS_DB_HOST}
+      WORDPRESS_DB_USER: ${WORDPRESS_DB_USER}
+      WORDPRESS_DB_PASSWORD: ${WORDPRESS_DB_PASSWORD}
+      WORDPRESS_DB_NAME: ${WORDPRESS_DB_NAME}
+    depends_on:
+      - db
+    networks:
+      - wpnet
+
+  db:
+    image: mysql
+    container_name: compose-mysql
+    environment:
+      MYSQL_ROOT_PASSWORD: ${MYSQL_ROOT_PASSWORD} 
+      MYSQL_DATABASE: ${MYSQL_DATABASE}
+      MYSQL_USER: ${MYSQL_USER}
+      MYSQL_PASSWORD: ${MYSQL_PASSWORD}
+    volumes:
+      - compose-data:/var/lib/mysql
+    networks:
+      - wpnet
+
+volumes:
+  compose-data: 
+
+networks:
+  wpnet:
+    driver: bridge
