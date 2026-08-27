@@ -1,7 +1,7 @@
 # This is my second docker-compose  assignment
 
 services:
-  web:
+  webpage:
     build: . 
     container_name: app-stack
     volumes:
@@ -11,7 +11,7 @@ services:
     ports:
       - "5000:5000"
     networks:
-      - stacknet
+      - stacknet        #explicit network example
     depends_on:
       db:
         condition: service_healthy
@@ -21,6 +21,10 @@ services:
       timeout: 10s
       retries: 3
       start_period: 20s
+    labels:
+      com.example.service: "web"
+      com.example.owner: "Alfaiz Mansoor"
+      com.example.description: "Flask frontend app"
 
   db:
     image: mysql
@@ -41,19 +45,29 @@ services:
       timeout: 10s
       retries: 5
       start_period: 30s
+    labels:
+      com.example.service: "database"
+      com.example.owner: "Alfaiz Mansoor"
+      com.example.description: "mysql backend app"
+
 
   cache:
     image: redis
-    container_name: cache-stack
-    ports:
-      - "6379:6379"
+   # container_name: cache-stack
+   # ports:
+   #   - "6379:6379"
     volumes:
       - stackcache-volume:/data
     networks:
       - stacknet
+    labels:
+      com.example.service: "cache"
+      com.example.owner: "Alfaiz Mansoor"
+      com.example.description: "web-app cache"
+
 
 volumes:
-  stackapp-volume: 
+  stackapp-volume:                 #explicit volume example
   stackcache-volume: 
 
 networks:
