@@ -16,7 +16,7 @@ def home():
                 display: flex;
                 justify-content: center;
                 align-items: center;
-                height: 100vh;
+                height: 150vh;
                 margin: 0;
             }
             .container {
@@ -36,8 +36,8 @@ def home():
     </head>
     <body>
         <div class="container">
-            <h1>Hello, World!</h1>
-            <p>This is a basic Flask web app with a beautiful frontend.</p>
+            <h1>Hello, World! My name is Alfaiz Mansoor</h1>
+            <p>This is a basic Flask web app with a beautiful frontend created by DevOps ER. Alfaiz Mansoor.</p>
         </div>
     </body>
     </html>
