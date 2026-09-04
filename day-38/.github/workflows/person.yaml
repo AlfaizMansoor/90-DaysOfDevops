@@ -1,0 +1,18 @@
+# This is my first .yaml file
+# Declaring name
+name: Alfaiz-Mansoor
+
+# Trigger
+on:
+  workflow_dispatch:
+
+# Defining role
+role: 
+  build: containers
+  Making: Pipelines
+
+# Describing experience
+experience: 1 years
+
+# Learning define
+learning: true
