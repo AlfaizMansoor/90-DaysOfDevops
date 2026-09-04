@@ -4,8 +4,8 @@ name: Alfaiz-Mansoor
 
 # Trigger
 on:
-  workflow_dispatch:
-
+  push: 
+    branches: [push]
 # Defining role
 role: 
   build: containers
