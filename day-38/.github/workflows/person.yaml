@@ -1,0 +1,34 @@
+# My first yaml file
+name: Alfaiz
+
+on:
+  push:
+    branches: [main]
+
+jobs:
+  role: 
+    runs-on: ubuntu-latest
+    outputs:
+        job_role: Devops Engineer
+  
+  experience: 
+    runs-on: ubuntu-latest
+    outputs:
+      years: 0.6
+      
+  learning:
+    runs-on: ubuntu-latest
+    outputs:
+      boolean: true
+
+  tools:
+    runs-on: ubuntu-latest
+    list:
+      skill1: Linux
+      skill2: Networing
+      skill3: Github
+      skill4: Gitlab
+      skill5: Docker
+
+  user: {runs-on: ubuntu-latest, hobbies: [reading, writing]}
+
