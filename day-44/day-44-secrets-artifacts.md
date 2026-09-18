@@ -137,3 +137,10 @@
     
 #### What is being cached and where is it stored?
 * It stores Compiled packages and installer metadata On Virtual machine runner and on Github secure cloud
+
+### file URL's
+* **secrets.yml** :- <https://github.com/AlfaizMansoor/github-actions-practice/blob/main/.github/workflows/secrets.yml>
+
+* **artifacts.yml** :- <https://github.com/AlfaizMansoor/github-actions-practice/blob/main/.github/workflows/artifacts.yml>
+
+* **real-test.yml** :- <https://github.com/AlfaizMansoor/github-actions-practice/blob/main/.github/workflows/real-test.yml>
