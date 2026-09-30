@@ -1,0 +1,14 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: busybox-env-pod
+spec:
+  restartPolicy: Never
+  containers:
+    - name: busybox
+      image: busybox:1.36
+      command: ["sh", "-c", "echo '--- Env Values ---' && env | grep APP_"]
+      envFrom:
+        - configMapRef:
+            name: app-config
+

@@ -1,0 +1,27 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: config-watcher-pod
+  labels:
+    app: config-watcher
+spec:
+  containers:
+    - name: watcher-container
+      image: busybox:1.36
+      # Command to read the mounted file in a loop every 5 seconds
+      command: ["/bin/sh", "-c"]
+      args:
+        - |
+          while true; do
+            echo "Current Message: $(cat /etc/config/message)"
+            sleep 5
+          done
+      volumeMounts:
+        - name: config-volume
+          mountPath: /etc/config
+          readOnly: true
+  volumes:
+    - name: config-volume
+      configMap:
+        name: live-config
+
