@@ -1,0 +1,13 @@
+kind: PersistentVolumeClaim
+apiVersion: v1
+
+metadata:
+  name: pvc-volume
+
+spec:
+  storageClassName: standard
+  accessModes:
+    - ReadWriteOnce
+  resources:
+    requests:
+      storage: 300Mi

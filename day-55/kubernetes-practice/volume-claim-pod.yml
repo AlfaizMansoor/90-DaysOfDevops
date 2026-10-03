@@ -1,0 +1,20 @@
+kind: Pod
+apiVersion: v1
+
+metadata:
+  name: volume-claim-pod
+
+spec:
+  containers:
+  - name: volume-claim
+    image: busybox:latest
+    command: ["sh", "-c", "echo 'Persistent storage is working!' >> /data/success.txt && sleep 3600"]
+    
+    volumeMounts:
+    - name: claim-volume
+      mountPath: /data
+
+  volumes:
+  - name: claim-volume
+    persistentVolumeClaim:
+      claimName: pv-claim
