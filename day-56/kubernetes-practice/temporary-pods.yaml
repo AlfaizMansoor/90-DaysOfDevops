@@ -1,0 +1,19 @@
+kind: Pod
+apiVersion: v1
+
+metadata:
+  name: temporary-pod
+
+spec:
+  containers:
+  - name: busybox
+    image: busybox:latest
+    command:
+    - sh
+    - -c
+    - |
+      nslookup web-0.headless-service.default.svc.cluster.local
+      nslookup web-1.headless-service.default.svc.cluster.local 
+      nslookup web-2.headless-service.default.svc.cluster.local
+      sleep 3600 
+  restartPolicy: Never
