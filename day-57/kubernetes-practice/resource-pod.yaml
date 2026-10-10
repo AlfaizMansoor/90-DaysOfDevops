@@ -1,0 +1,18 @@
+kind: Pod
+apiVersion: v1
+
+metadata:
+  name: resource-pod
+
+spec:
+  containers:
+  - name: busybox
+    image: busybox:latest
+    command: ['sh', '-c', 'echo "Hello, Kubernetes!" && sleep 3600']
+    resources:
+      requests:
+        cpu: 100m
+        memory: 128Mi
+      limits:
+        cpu: 250m
+        memory: 256Mi

@@ -1,0 +1,35 @@
+kind: Pod
+apiVersion: v1
+
+metadata:
+  name: startup-probe-pod
+  labels:
+    app: startup-test
+
+spec:
+  containers:
+  - name: startup
+    image: busybox:latest
+    command:
+    - sh
+    - -c
+    - |
+      echo "Application starting up... sleeping for 20 seconds."
+      sleep 20
+      touch /tmp/started
+      echo "Application is fully initialized!"
+      while true; do sleep 5; done
+    startupProbe:
+      exec:
+        command:
+        - cat
+        - /tmp/started
+      periodSeconds: 5
+      failureThreshold: 12
+    livenessProbe:
+      exec:
+        command:
+        - cat
+        - /tmp/started
+      periodSeconds: 5
+      failureThreshold: 3

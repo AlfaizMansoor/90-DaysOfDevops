@@ -1,0 +1,15 @@
+kind: Pod
+apiVersion: v1
+
+metadata:
+  name: pending-pod
+
+spec:
+  containers:
+  - name: pending
+    image: busybox:latest
+    command: ['sh', '-c', 'echo "This is a Pending Pod" && sleep 60']
+    resources:
+      requests:
+        cpu: 100
+        memory: 128Gi
