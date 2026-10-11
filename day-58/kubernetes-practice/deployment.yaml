@@ -1,0 +1,27 @@
+kind: Deployment
+apiVersion: apps/v1
+
+metadata:
+  name: apache-deployment
+  labels: 
+    app: php-apache
+
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: php-apache
+  template: 
+    metadata:
+      labels:
+        app: php-apache
+    spec:
+      containers:
+      - name: php-apache
+        image: registry.k8s.io/hpa-example:latest
+        ports: 
+        - containerPort: 80
+          name: http
+        resources:
+          requests:
+            cpu: 200m
