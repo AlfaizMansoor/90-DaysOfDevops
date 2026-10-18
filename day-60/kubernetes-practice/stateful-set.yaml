@@ -1,0 +1,48 @@
+kind: StatefulSet
+apiVersion: apps/v1
+
+metadata:
+  name: mysql
+  namespace: capstone
+
+spec:
+  selector:
+    matchLabels:
+      app: my-mysql
+  serviceName: "mysql"
+  replicas: 2
+  template:
+    metadata:
+      labels:
+        app: my-mysql
+    spec:
+      containers:
+      - name: mysql
+        image: mysql:8.0
+        ports:
+        - containerPort: 3306
+
+        envFrom:
+        - secretRef: 
+            name: my-secret
+
+        resources:
+          requests:
+            cpu: 250m
+            memory: 512Mi
+          limits:
+            cpu: 500m
+            memory: 1Gi
+
+        volumeMounts: 
+        - name: mysql
+          mountPath: /var/lib/mysql
+
+  volumeClaimTemplates:
+  - metadata:
+      name: mysql
+    spec:
+      accessModes: [ "ReadWriteOnce" ]
+      resources:
+        requests:
+          storage: 1Gi
