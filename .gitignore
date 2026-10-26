@@ -223,3 +223,7 @@ __marimo__/
 .terraform/
 .terraform.lock.hcl
 tfplan
+
+# SSh Keys
+my-Key
+my-key.pub
