@@ -5,8 +5,8 @@ I Use my previous "Day-63" config, I Applied it and then explore the state:
 ```bash
 terraform show                                    # Full state in human-readable format
 terraform state list                              # All resources tracked by Terraform
-terraform state show aws_instance.<name>          # Every attribute of the instance
-terraform state show aws_vpc.<name>               # Every attribute of the VPC
+terraform state show aws_instance.alfaiz          # Every attribute of the instance
+terraform state show aws_vpc.alfaiz               # Every attribute of the VPC
 ```
 
 #### How many resources does Terraform track?
@@ -48,13 +48,13 @@ aws_vpc_security_group_egress_rule.allow_outbound
 ```bash
 # Create S3 bucket for state storage
 aws s3api create-bucket \
-  --bucket terraweek-state-<yourname> \
+  --bucket terraweek-state-alfaiz \
   --region ap-south-1 \
   --create-bucket-configuration LocationConstraint=ap-south-1
 
 # Enable versioning (so you can recover previous state)
 aws s3api put-bucket-versioning \
-  --bucket terraweek-state-<yourname> \
+  --bucket terraweek-state-alfaiz \
   --versioning-configuration Status=Enabled
 
 # Create DynamoDB table for state locking
