@@ -185,6 +185,7 @@ kubectl apply -f k8s/nginx-deployment.yaml
 ```
 
 ![alt text](<Screenshot From 2026-10-26 22-34-03.png>)
+![alt text](<Screenshot From 2026-10-26 22-46-06.png>)
 
 3. Wait for the LoadBalancer to get an external IP:
 ```bash
