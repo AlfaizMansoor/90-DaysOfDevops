@@ -227,3 +227,7 @@ tfplan
 # SSh Keys
 my-Key
 my-key.pub
+ansible-new-key
+ansible-new-key.pub
+*.pub
+*.pem
