@@ -13,16 +13,22 @@ variable "instances" {
       user          = "ubuntu"
       instance_type = "t3.micro"
     }
-    "worker-node-1" = {
+    "app" = {
       ami           = "ami-09f02015912e773f7"
       os_family     = "Amazon"
-      user          = "ec2_user"
+      user          = "ec2-user"
       instance_type = "t3.small"
     }
-    "worker-node-2" = {
+    "web" = {
       ami           = "ami-0cc098d14c47f965b"
       os_family     = "Amazon-linux"
-      user          = "ec2_user"
+      user          = "ec2-user"
+      instance_type = "t3.small"
+    }
+    "db" = {
+      ami           = "ami-0cc098d14c47f965b"
+      os_family     = "Amazon-linux"
+      user          = "ec2-user"
       instance_type = "t3.small"
     }
   }
