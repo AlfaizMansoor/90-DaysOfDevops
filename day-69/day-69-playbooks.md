@@ -215,6 +215,8 @@ Before running playbooks on production, always preview changes first.
 ansible-playbook install-nginx.yml --check
 ```
     
+![alt text](<Screenshot From 2026-11-10 20-49-10.png>)
+
 2. **Diff mode** -- shows the actual file differences:
 ```bash
 ansible-playbook nginx-config.yml --check --diff
