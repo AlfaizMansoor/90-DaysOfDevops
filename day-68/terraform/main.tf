@@ -19,8 +19,8 @@ provider "aws" {
 
 # Key Pair
 resource "aws_key_pair" "my_key_pair" {
-  key_name   = "ansible-key"
-  public_key = file("${path.module}/ansible-key.pub")
+  key_name   = "ansible-new-key"
+  public_key = file("${path.module}/ansible-new-key.pub")
 }
 
 
