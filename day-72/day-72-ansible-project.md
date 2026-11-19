@@ -452,21 +452,6 @@ ansible-playbook site.yml --skip-tags common
 | 72 | Everything combined in one project |
 
 3. What would you add for production? (SSL with certbot, monitoring, log rotation, multi-container Compose)
-**Reflect and document:**
-1. How many total tasks ran?
-* Total 20 tasks runs
-
-2. Map each Ansible concept to the day you learned it:
-
-| Day | Concept Used |
-|-----|-------------|
-| 68 | Inventory, ad-hoc commands, SSH setup |
-| 69 | Playbooks, modules, handlers |
-| 70 | Variables, facts, conditionals, loops |
-| 71 | Roles, templates, Galaxy, Vault |
-| 72 | Everything combined in one project |
-
-3. What would you add for production? (SSL with certbot, monitoring, log rotation, multi-container Compose)
 4. Clean up your EC2 instances when done. If you used Terraform: `terraform destroy`. If manual: terminate from the console.
 
 ---
