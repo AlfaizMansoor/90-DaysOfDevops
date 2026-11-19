@@ -400,15 +400,22 @@ ansible-playbook site.yml --check --diff
 # Full deploy
 ansible-playbook site.yml
 ```
+![alt text](<Screenshot From 2026-11-19 13-19-49.png>)
 
 Use tags for selective execution:
 ```bash
 # Only set up Docker and containers
 ansible-playbook site.yml --tags docker
+```
+![alt text](<Screenshot From 2026-11-19 13-20-35.png>)
 
+```bash
 # Only update Nginx config
 ansible-playbook site.yml --tags nginx
+```
+![alt text](<Screenshot From 2026-11-19 13-21-59.png>)
 
+```bash
 # Skip common setup
 ansible-playbook site.yml --skip-tags common
 ```
@@ -420,8 +427,12 @@ ansible-playbook site.yml --skip-tags common
 2. Curl the server on port 80 -- does Nginx reverse proxy the request to the container?
 * I curl the server port on 80 and the container responds directly.
 
+![alt text](<Screenshot From 2026-11-19 13-23-39.png>)
+
 3. Check `docker ps` on the server -- is the container running with the correct port mapping?
 * I checked the web server host and verifies that container named **"myapp"** is running.
+
+![alt text](<Screenshot From 2026-11-19 13-38-07.png>)
 
 ---
 
